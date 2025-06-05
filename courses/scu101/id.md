@@ -9,7 +9,7 @@ objectives:
 
 # Perjalanan Menuju Perlindungan Data Anda
 
-Selamat datang, semuanya, di program edukasi ini yang dirancang khusus dan mencakup topik tentang keamanan digital. Pelatihan ini dirancang agar dapat dipahami oleh semua orang, sehingga Anda tidak perlu untuk memiliki pengetahuan yang dalam tentang ilmu komputer untuk memahami konten ini. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menjaga keamanan dan privasi Anda di dunia digital dengan lebih baik.
+Hello, Selamat datang semuanya, di program edukasi ini yang dirancang khusus dan mencakup topik tentang keamanan digital. Pelatihan ini dirancang agar dapat dipahami oleh semua orang, sehingga Anda tidak perlu untuk memiliki pengetahuan yang dalam tentang ilmu komputer untuk memahami konten ini. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menjaga keamanan dan privasi Anda di dunia digital dengan lebih baik.
 
 Hal ini akan melibatkan penggunaan beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda dengan lebih baik, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
 
