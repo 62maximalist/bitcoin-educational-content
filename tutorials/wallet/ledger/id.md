@@ -1,43 +1,45 @@
 ---
 name: Ledger Nano S
 
-description: Cara menyiapkan perangkat Ledger Nano S Anda
+description: Cara menyiapkan perangkat Ledger Nano S kamu
 ---
 
 ![image](assets/cover.webp)
 
-Dompet fisik dingin – €60 – Pemula – Untuk mengamankan €2.000 hingga €50.000
+Dompet hardware (cold wallet) – €60 – Cocok buat pemula – Amanin Bitcoin senilai €2.000 sampai €50.000
 
-Ledger adalah solusi Prancis untuk mengamankan bitcoin dengan cara yang sederhana.
+Ledger itu solusi buatan Prancis buat ngamanin Bitcoin dengan cara yang simpel dan praktis.
 
-Dalam tutorial ini, kami juga membahas bagian passphrase, solusi keamanan lanjutan untuk menyimpan jumlah besar: 20.000€ – 100.000€.
+Di tutorial ini, kita juga bahas soal passphrase — fitur keamanan lanjutan buat nyimpen jumlah besar, mulai dari €20.000 sampai €100.000.
 
 https://www.youtube.com/watch?v=_vsHNTLi8MQ
 
 # Menghubungkan Ledger ke Sparrow Bitcoin Wallet (panduan penulisan)
 
-Pastikan Anda telah membaca bagian lainnya "Menggunakan Bitcoin Hardware Wallets" terlebih dahulu. Saya akan melewati beberapa langkah dan lebih fokus pada apa yang spesifik untuk Ledger di sini.
+Pastikan kamu udah baca dulu bagian “Menggunakan Bitcoin Hardware Wallets”. Di sini, kita bakal skip beberapa langkah umum dan langsung fokus ke hal-hal yang khusus buat Ledger.
 
 ## Menyiapkan perangkat
 
-Ledger dilengkapi dengan kabel USB sendiri. Pastikan Anda menggunakan itu dan bukan sembarang kabel lama. Beberapa kabel USB hanya untuk daya. Yang ini mentransmisikan data DAN daya. Ketika saya menggunakan perangkat dengan kabel USB pengisian ponsel yang tergeletak di sekitar, perangkat gagal terhubung.
+Ledger udah dilengkapi kabel USB bawaan. Pastikan kamu pakai kabel itu—jangan asal ambil kabel lama yang ada di rumah. Soalnya, beberapa kabel USB cuma bisa ngisi daya doang. Nah, kabel bawaan Ledger ini bisa ngirim data dan daya sekaligus. Dulu gue pernah coba pakai kabel charger HP yang nganggur, eh ternyata device-nya gagal konek.
 
-Hubungkan ke komputer Anda dan perangkat akan menyala.
+Colokin ke komputer kamu, dan perangkatnya bakal langsung nyala otomatis.
 
 ![image](assets/1.webp)
 
-Jelajahi opsi-opsinya. Anda akan melihat
+Jelajahi opsi-opsinya. Kamu akan melihat
 
 1. Atur sebagai perangkat baru
 2. Pulihkan dari frasa pemulihan
 
-Pada dasarnya, ini bertanya apakah Anda ingin perangkat membuat seed untuk Anda atau jika Anda sudah memiliki satu yang ingin Anda gunakan. Praktik terbaik adalah membuat seed Anda sendiri, tetapi melakukan itu dengan aman sangat lanjutan, dan di luar cakupan artikel ini. Pilih "Atur sebagai perangkat baru"
+Intinya, di bagian ini kamu ditanya: mau bikin seed baru langsung dari perangkat, atau udah punya seed sendiri yang mau dipakai? Secara umum, praktik terbaik sih bikin seed sendiri. Tapi ngejalaninnya dengan aman itu level lanjutan banget—dan nggak dibahas di artikel ini. Jadi untuk sekarang, pilih aja opsi “Atur sebagai perangkat baru”.
 
-Anda kemudian akan diminta untuk memilih PIN. Ini bukan bagian dari seed Bitcoin Anda dan spesifik untuk perangkat ini saja. Ini mengunci perangkat.
+Selanjutnya, kamu bakal diminta buat pilih PIN. Perlu diingat: ini bukan bagian dari seed Bitcoin kamu—PIN ini khusus buat ngunci perangkat Ledger-nya aja.
 
-Kemudian akan menampilkan kepada Anda 24 kata yang perlu Anda siklus melalui dan tulis.
+Setelah itu, perangkat bakal nunjukin 24 kata yang harus kamu cek satu per satu dan catat dengan hati-hati.
 
-Anehnya, ketika Anda sampai di akhir, itu mengatakan "tekan kiri untuk memverifikasi kata-kata Anda". Itu tidak menjelaskan bagaimana Anda mengonfirmasi untuk melanjutkan, itu hanya berarti Anda dapat kembali dan melihat kata-kata lagi. Tekan kanan sebagai gantinya, dan konfirmasi dengan menekan kiri dan kanan secara bersamaan.
+Agak membingungkan, tapi pas kamu sampai di akhir, layar bakal bilang “tekan kiri untuk verifikasi kata-kata kamu”. Padahal itu bukan buat lanjut ke tahap berikutnya—itu cuma biar kamu bisa balik lagi ngecek kata-katanya. Yang bener, tekan kanan buat lanjut, lalu konfirmasi dengan menekan tombol kiri dan kanan secara bersamaan.
+
+---------------------------- nanti lanjut disini
 
 Bagian selanjutnya sangat menjengkelkan. Ini mencampuradukkan 24 kata dan Anda harus mengonfirmasi setiap satu, dari 1 hingga 24, dengan mengitari semua kata untuk setiap pilihan. Setelah Anda selesai, itu memungkinkan Anda untuk mengonfirmasi dengan tekanan dua tombol dan melanjutkan.
 
