@@ -39,34 +39,31 @@ Setelah itu, perangkat bakal nunjukin 24 kata yang harus kamu cek satu per satu 
 
 Agak membingungkan, tapi pas kamu sampai di akhir, layar bakal bilang “tekan kiri untuk verifikasi kata-kata kamu”. Padahal itu bukan buat lanjut ke tahap berikutnya—itu cuma biar kamu bisa balik lagi ngecek kata-katanya. Yang bener, tekan kanan buat lanjut, lalu konfirmasi dengan menekan tombol kiri dan kanan secara bersamaan.
 
----------------------------- nanti lanjut disini
-
-Bagian selanjutnya sangat menjengkelkan. Ini mencampuradukkan 24 kata dan Anda harus mengonfirmasi setiap satu, dari 1 hingga 24, dengan mengitari semua kata untuk setiap pilihan. Setelah Anda selesai, itu memungkinkan Anda untuk mengonfirmasi dengan tekanan dua tombol dan melanjutkan.
+Bagian selanjutnya lumayan bikin kesel. Perangkat bakal acak urutan 24 kata tadi, dan kamu harus konfirmasi satu per satu—dari kata pertama sampai ke-24. Setiap kali, kamu harus muter lewat semua pilihan kata buat milih yang bener. Tapi setelah selesai, tinggal tekan dua tombol barengan buat konfirmasi dan lanjut ke tahap berikutnya.
 
 ![image](assets/2.webp)
 
-Anda akan melihat di dasbor Anda bahwa Anda memiliki tombol pengaturan, dan tombol tanda tambah yang memungkinkan Anda untuk menginstal aplikasi. Tapi Anda perlu terhubung ke Ledger Live terlebih dahulu. Kami akan melakukannya selanjutnya…
+Di dasbor, kamu bakal lihat ada tombol pengaturan dan tombol plus (+) buat install aplikasi. Tapi sebelum itu bisa dipakai, kamu harus sambungin dulu perangkatnya ke Ledger Live. Tenang, langkah itu bakal kita bahas setelah ini...
 
 ## Unduh Ledger Live
 
-Anda bisa mengunduh Ledger Live dari halaman web mereka, tetapi lebih baik mendapatkannya dari GitHub, di mana kode sumber disimpan.
+Kamu bisa download Ledger Live dari website resminya, tapi kalau mau lebih yakin soal keamanan, mending ambil langsung dari GitHub—karena di situ tempat kode sumber resminya disimpan.
 
 Google "ledger live GitHub" atau klik tautan ini https://github.com/LedgerHQ/ledger-live-desktop
 
 ![image](assets/3.webp)
 
-Gulir ke bawah sampai Anda melihat judul, "Downloads"…
+Scroll ke bawah sampai kamu melihat judul, "Downloads"…
 
 ![image](assets/4.webp)
 
-Di bagian bawah, Anda akan melihat tautan: Instruksi untuk memverifikasi hash dan tanda tangan dari paket instalasi tersedia di halaman ini. Klik tautan itu.(https://live.ledger.tools/lld-signatures)
+Di bagian bawah, kamu akan melihat tautan: Instruksi untuk memverifikasi hash dan tanda tangan dari paket instalasi tersedia di halaman ini. Klik ini.(https://live.ledger.tools/lld-signatures)
 
 ![image](assets/5.webp)
 
-Di bagian atas, ada pilihan tautan untuk paket perangkat lunak yang Anda butuhkan, tergantung pada sistem operasi Anda. Klik yang sesuai untuk mengunduh.
+Kamu bisa download Ledger Live langsung dari situs resminya. Di bagian atas halaman, bakal ada pilihan link download sesuai sistem operasi. Tinggal klik yang sesuai, terus lanjut install seperti biasa.
 
-Selanjutnya, kami ingin memverifikasi hash unduhan, untuk keamanan ekstra.
-Ledger mempublikasikan hash dari setiap file yang tersedia di halaman ini. Kita akan meng-hash unduhan dan membandingkan outputnya. Ini perlu identik untuk memastikan file tersebut tidak telah diubah.
+Selanjutnya, kita mau verifikasi hash dari file yang tadi kamu download—buat nambah lapisan keamanan. Ledger biasanya ngasih hash resmi dari setiap file yang mereka rilis, dan itu bisa kamu temuin di halaman download-nya. Nah, kita bakal nge-hash file unduhan kamu, terus bandingin hasilnya sama hash resmi tadi. Kalau hasilnya identik, berarti file-nya aman dan nggak diutak-atik.
 
 Buka terminal pada Mac atau CMD di windows. Ikuti perintah berikut...
 
@@ -80,6 +77,8 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- Untuk Window
 ```
 
 <Enter>
+
+-------------- lanjut disini
 
 Semoga sudah jelas bahwa perintah dimulai setelah panah. Pastikan, jika artikel ini sudah usang, Anda mengubah nama file dalam perintah sesuai dengan nama file yang Anda unduh. Anda perlu menekan tombol <Enter> setelah setiap perintah. Perintah seperti yang terlihat di sini mungkin tidak muat dalam satu baris di peramban web Anda. Catatan, semuanya diketik dalam satu baris.
 
