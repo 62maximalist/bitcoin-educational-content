@@ -80,50 +80,52 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- Untuk Window
 
 -------------- lanjut disini
 
-Semoga sudah jelas bahwa perintah dimulai setelah panah. Pastikan, jika artikel ini sudah usang, Anda mengubah nama file dalam perintah sesuai dengan nama file yang Anda unduh. Anda perlu menekan tombol <Enter> setelah setiap perintah. Perintah seperti yang terlihat di sini mungkin tidak muat dalam satu baris di peramban web Anda. Catatan, semuanya diketik dalam satu baris.
+Semoga udah jelas ya, perintah dimulai setelah tanda panah (>). Kalau nama file-nya beda karena artikel ini udah agak lama, pastikan kamu ganti nama file di perintahnya sesuai file yang kamu download. Setiap perintah dijalankan dengan menekan tombol <Enter>. Kadang perintahnya bisa keliatan kepotong di browser, tapi sebenarnya semuanya ditulis dalam satu baris, ya.
 
 Lihat output dari hash dan pastikan itu identik dengan yang dipublikasikan di GitHub.
 
-Idealnya, Anda ingin lebih teliti dan memastikan bahwa hash yang dipublikasikan tidak palsu. Kami melakukan ini dengan tanda tangan gpg, tetapi itu di luar cakupan artikel ini. Jika Anda ingin belajar tentang itu (dan saya sarankan Anda akhirnya melakukannya), maka telusuri artikel ini.
+Idealnya sih, kamu juga perlu lebih teliti dan pastiin kalau hash yang dipublikasikan itu beneran asli, bukan palsu. Cara ngeceknya bisa lewat tanda tangan GPG. Tapi bagian itu nggak dibahas di artikel ini. Kalau kamu penasaran (dan sebaiknya kamu pelajari juga nantinya), coba telusuri artikel ini lebih lanjut ya.
 
 ## Terhubung ke Ledger Live
 
-Sebelum Anda menjalankan Ledger Live, membantu privasi sedikit untuk mengaktifkan VPN. Ledger masih akan mendapatkan semua alamat Anda, tetapi mereka tidak akan tahu alamat IP Anda, yang memberikan alamat rumah Anda. Mullvad VPN adalah layanan VPN yang sangat baik dan tidak terlalu mahal (saya tidak beriklan, itu hanya yang saya gunakan).
+Sebelum kamu buka Ledger Live, ada baiknya nyalain VPN dulu buat bantu jaga privasi. Ledger emang tetap bakal tahu semua alamat Bitcoin kamu, tapi setidaknya mereka nggak bisa ngelacak alamat IP kamu—yang bisa ngarah ke lokasi rumahmu. Kalau butuh rekomendasi, Mullvad VPN itu salah satu layanan yang bagus dan harganya juga masuk akal (nggak di-endorse ya, emang itu yang aku pakai sendiri).
 
-Instal perangkat lunak ke komputer Anda dan jalankan.
+Install dulu softwarenya ke komputer kamu, lalu jalankan kayak biasa.
 
 ![image](assets/6.webp)
 
-Pilih perangkat Anda, dan pilih "Pertama kali menggunakan..."
+Pilih perangkatmu, dan pilih "Pertama kali menggunakan..."
 
 ![image](assets/7.webp)
 
-Anda kemudian akan dibawa melalui wizard, tetapi kami telah melakukan semua langkah ini sehingga Anda dapat melalui.
+Setelah itu, kamu bakal dibawa lewat wizard (panduan langkah demi langkah). Tapi karena semua langkahnya udah kita lakuin sebelumnya, kamu bisa langsung klik-klik aja buat lanjut.
 
 ![image](assets/8.webp)
 
-Setelah banyak langkah dan kuis, itu akan memeriksa perangkat adalah asli. Anda perlu memastikan Anda terhubung dan memasukkan pin, dan kemudian akan ditanya pada perangkat jika Anda mengizinkan Ledger Live untuk terhubung. Anda harus mengonfirmasi itu, tentu saja.
+Setelah lewat beberapa langkah dan kuis, Ledger Live bakal ngecek apakah perangkat kamu asli. Pastikan perangkatnya udah terhubung dan kamu udah masukin PIN. Nanti bakal muncul permintaan di perangkat, apakah kamu ngizinin Ledger Live buat nyambung. Jawab aja “iya”, tentu aja harus dikonfirmasi di perangkat.
 
 ![image](assets/9.webp)
 
-Ada beberapa iklan shitcoin yang menyamar sebagai "catatan rilis" di pop up berikutnya. Abaikan itu, dan kemudian Anda harus sampai ke layar ini.
+Nanti bakal muncul pop-up yang isinya beberapa iklan shitcoin, nyamar jadi “catatan rilis”. Cuek aja, langsung skip bagian itu. Setelah itu, kamu bakal masuk ke tampilan utama seperti ini.
 
 ![image](assets/10.webp)
 
-Anda harus klik "Tambah akun" untuk mendapatkan Dompet Bitcoin.
+Kamu harus klik "Tambah akun" untuk mendapatkan Dompet Bitcoin.
 
 ![image](assets/11.webp)
 
-Pastikan Anda memilih Bitcoin, dan bukan Bitcoin Cash atau shitcoin lainnya. Ini akan memeriksa perangkat, dan Anda harus mengonfirmasi untuk melanjutkan DI PERANGKAT. Ini akan menghitung alamat selama beberapa menit. Kemudian klik SELESAI.
+Pastikan kamu memilih Bitcoin, dan bukan Bitcoin Cash atau shitcoin lainnya. Ini akan memeriksa perangkat, dan kamu harus mengonfirmasi untuk melanjutkan DI PERANGKAT. Ini akan menghitung alamat selama beberapa menit. Kemudian klik SELESAI.
 
 ![image](assets/12.webp)
 ![image](assets/13.webp)
 
-Bagus. Sekarang Anda memiliki manajer dompet shitcoin yang berisi dompet Bitcoin di komputer Anda. Anda sebenarnya tidak memerlukan ini lagi dan bisa menyingkirkannya. Tujuan sebenarnya adalah untuk mendapatkan Aplikasi Bitcoin di perangkat itu sendiri, dan ini adalah satu-satunya cara, selain melakukan beberapa teknik insinyur perangkat lunak yang ekstrem.
+Oke, sekarang kamu udah punya “manajer dompet shitcoin” di komputer—yang sebenarnya cuma pembungkus doang buat bisa ngakses dompet Bitcoin. Sebenarnya, kamu nggak butuh banget software ini lagi setelah instalasi awal. Tujuan utamanya cuma satu: masukin aplikasi Bitcoin ke perangkat Ledger kamu. Dan ini satu-satunya cara resmi, kecuali kamu mau ngoprek pake teknik rekayasa perangkat lunak tingkat ekstrem.
 
-Ingat bahwa sebelumnya, di perangkat, kami memiliki tombol pengaturan dan tombol tanda tambah. Sekarang kami memiliki tombol ekstra - tombol Aplikasi Bitcoin.
+Ingat bahwa sebelumnya, di perangkat, kita memiliki tombol pengaturan dan tombol tanda tambah. Sekarang kami memiliki tombol ekstra - tombol Aplikasi Bitcoin.
 
-Anda dapat mematikan Ledger Live sekarang.
+Kamu dapat mematikan Ledger Live sekarang.
+
+-----------------------lanjut disini besok
 
 ## Tambahkan passphrase
 Kini setelah kita memiliki Aplikasi Bitcoin, kita dapat menambahkan passphrase ke seed phrase kita. Kita tidak bisa melakukan itu sebelumnya ketika seed pertama kali dibuat karena pada awalnya, kita tidak memiliki Aplikasi Bitcoin, dan kita perlu terhubung ke Ledger Live untuk mendapatkannya.
