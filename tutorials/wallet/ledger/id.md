@@ -78,8 +78,6 @@ certutil -hashfile ledger-live-desktop-2.32.2-win.exe SHA512 # <--- Untuk Window
 
 <Enter>
 
--------------- lanjut disini
-
 Semoga udah jelas ya, perintah dimulai setelah tanda panah (>). Kalau nama file-nya beda karena artikel ini udah agak lama, pastikan kamu ganti nama file di perintahnya sesuai file yang kamu download. Setiap perintah dijalankan dengan menekan tombol <Enter>. Kadang perintahnya bisa keliatan kepotong di browser, tapi sebenarnya semuanya ditulis dalam satu baris, ya.
 
 Lihat output dari hash dan pastikan itu identik dengan yang dipublikasikan di GitHub.
@@ -125,24 +123,23 @@ Ingat bahwa sebelumnya, di perangkat, kita memiliki tombol pengaturan dan tombol
 
 Kamu dapat mematikan Ledger Live sekarang.
 
------------------------lanjut disini besok
 
 ## Tambahkan passphrase
 Kini setelah kita memiliki Aplikasi Bitcoin, kita dapat menambahkan passphrase ke seed phrase kita. Kita tidak bisa melakukan itu sebelumnya ketika seed pertama kali dibuat karena pada awalnya, kita tidak memiliki Aplikasi Bitcoin, dan kita perlu terhubung ke Ledger Live untuk mendapatkannya.
 
-Pergi ke menu "settings" di dalam perangkat, kemudian submenu "security". Kemudian pilih passphrase. Anda akan melihat "Advanced feature". Klik tombol kanan, Anda akan melihat "read manual..." dan kemudian setelah klik tombol kanan lagi, Anda akan melihat "back". Tapi itu bukan akhirnya. Secara intuitif, Anda mungkin berpikir itu sudah selesai, tapi klik tombol kanan lagi. Anda akan melihat "set up passphrase".
+Pergi ke menu "settings" di dalam perangkat, kemudian submenu "security". Kemudian pilih passphrase. Kamu akan melihat "Advanced feature". Klik tombol kanan, kamu akan melihat "read manual..." dan kemudian setelah klik tombol kanan lagi, kamu akan melihat "back". Tapi itu bukan akhirnya. Secara intuitif, kamu mungkin berpikir itu sudah selesai, tapi klik tombol kanan lagi. kamu akan melihat "set up passphrase".
 
-Anda dapat memutuskan untuk "attach to PIN" atau "Set temporarily". Saya merekomendasikan "attach to the PIN". Dengan cara itu, Anda dapat mengakses dompet yang berbeda tergantung pada PIN yang Anda masukkan ketika pertama kali menyalakan perangkat. Jika Anda "set temporarily", Anda harus memasukkan passphrase setiap kali Anda ingin mengakses dompet tersebut, tapi itu selalu dari PIN default.
+Kamu dapat pilih untuk "attach to PIN" atau "Set temporarily". Kalau aku merekomendasikan "attach to the PIN". Dengan cara itu, kamu dapat mengakses dompet yang berbeda tergantung pada PIN yang Anda masukkan ketika pertama kali menyalakan perangkat. Jika kamu pilih "set temporarily", kamu harus memasukkan passphrase setiap kali Anda ingin mengakses dompet tersebut, tapi itu selalu dari PIN default.
 
 Masukkan passphrase dan konfirmasikan.
 
-Ini akan meminta Anda untuk "Current PIN". Ini bukan PIN yang Anda asosiasikan dengan passphrase baru. Ini adalah PIN yang Anda masukkan ketika Anda menyalakan perangkat untuk sesi ini.
+Ini akan meminta Anda untuk "Current PIN". Ini bukan PIN yang kamu asosiasikan dengan passphrase baru. Ini adalah PIN yang kamu masukkan ketika Anda menyalakan perangkat untuk sesi ini.
 
-Anda sekarang dapat keluar ke menu utama dengan memilih opsi kembali beberapa kali.
+Nah, sekarang kamu dapat keluar ke menu utama dengan memilih opsi kembali beberapa kali.
 
 ## Mengawasi Dompet
 
-Dalam artikel sebelumnya, saya menjelaskan cara mengunduh dan memverifikasi Sparrow wallet, dan cara menghubungkannya ke node Anda sendiri, atau node publik. Anda harus mengikuti panduan ini:
+Dalam artikel sebelumnya, aku pernah menjelaskan cara mengunduh dan memverifikasi Sparrow wallet, dan cara menghubungkannya ke node milikmu sendiri, atau node publik. Kamu harus mengikuti panduan ini:
 
 - Pasang Bitcoin Core (https://armantheparman.com/bitcoincore/)
 
@@ -150,9 +147,9 @@ Dalam artikel sebelumnya, saya menjelaskan cara mengunduh dan memverifikasi Spar
 
 - Hubungkan Sparrow Bitcoin Wallet ke Bitcoin Core (https://armantheparman.com/sparrowcore/)
 
-Sebagai alternatif menggunakan Sparrow Bitcoin Wallet adalah Electrum Desktop Wallet, tapi saya akan melanjutkan menjelaskan Sparrow Bitcoin Wallet karena saya menilai itu yang terbaik untuk kebanyakan orang. Pengguna lanjutan mungkin suka menggunakan Electrum sebagai alternatif.
+Pilihan selain Sparrow Bitcoin Wallet yang bisa kamu jadikan pilihan adalah Electrum Desktop Wallet, tapi kamu akan melanjutkan menjelaskan Sparrow Bitcoin Wallet karena kita menilai itu yang terbaik untuk kebanyakan orang. Pengguna lanjutan mungkin suka menggunakan Electrum sebagai alternatif.
 
-Kita sekarang akan memuatnya dan menghubungkan Ledger, dengan dompet yang mengandung passphrase. Dompet ini tidak pernah terpapar ke Ledger Live karena dibuat SETELAH kita menghubungkan perangkat ke Ledger Live. Pastikan Anda tidak pernah menghubungkannya ke Ledger Live lagi untuk tidak memaparkan dompet pribadi baru Anda.
+Kita sekarang akan memuatnya dan menghubungkan Ledger, dengan dompet yang mengandung passphrase. Dompet ini tidak pernah terpapar ke Ledger Live karena dibuat SETELAH kita menghubungkan perangkat ke Ledger Live. Pastikan kamu tidak pernah menghubungkannya ke Ledger Live lagi untuk tidak memaparkan dompet pribadi barumu.
 
 Buat Dompet Baru:
 
@@ -162,11 +159,11 @@ Namai dengan sesuatu yang cantik
 
 ![image](assets/15.webp)
 
-Perhatikan kotak centang, "Has existing transaction". Jika ini adalah dompet yang telah Anda gunakan sebelumnya, maka centang kotak ini, jika tidak saldo Anda akan salah ditampilkan sebagai nol. Mencentang kotak ini meminta Sparrow untuk memeriksa database Bitcoin Core (blockchain) untuk transaksi sebelumnya. Untuk panduan ini, kita menggunakan dompet baru, jadi Anda dapat meninggalkan kotak tidak dicentang.
+Perhatikan kotak centang, "Has existing transaction". Jika ini adalah dompet yang telah kamu gunakan sebelumnya, maka centang kotak ini, jika tidak saldo Anda akan salah ditampilkan sebagai nol. Mencentang kotak ini meminta Sparrow untuk memeriksa database Bitcoin Core (blockchain) untuk transaksi sebelumnya. Untuk panduan ini, kita menggunakan dompet baru, jadi kamu dapat meninggalkan kotak tidak dicentang.
 
 ![image](assets/16.webp)
 
-Klik pada "Connected Hardware Wallet" dan pastikan perangkat benar-benar terhubung, dinyalakan, PIN dimasukkan, dan Anda telah memasuki Aplikasi Bitcoin.
+Klik pada "Connected Hardware Wallet" dan pastikan perangkat benar-benar terhubung, dinyalakan, PIN dimasukkan, dan kamu telah memasuki Aplikasi Bitcoin.
 
 ![image](assets/17.webp)
 
@@ -174,45 +171,46 @@ Klik "Scan" dan kemudian "Import Keystore" di layar berikutnya.
 
 ![image](assets/18.webp)
 
-Tidak ada yang perlu diedit di layar berikutnya, Ledger telah mengisinya untuk Anda. Klik "Apply"
+Tidak ada yang perlu diedit di layar berikutnya, Ledger telah mengisinya untuk kamu. Klik "Apply"
 
 ![image](assets/19.webp)
-Layar berikutnya memungkinkan Anda untuk menambahkan kata sandi. Jangan keliru dengan "frasa sandi"; banyak orang akan melakukannya. Penamaannya tidak beruntung. Kata sandi memungkinkan Anda untuk mengunci dompet ini di komputer Anda. Ini spesifik untuk perangkat lunak ini di komputer ini. Ini bukan bagian dari kunci pribadi Bitcoin Anda.
+Layar berikutnya memungkinkan kamu untuk menambahkan kata sandi. Jangan keliru dengan "frasa sandi"; banyak orang akan melakukannya. Penamaannya tidak beruntung. Kata sandi memungkinkan kamu untuk mengunci dompet ini di komputermu. Ini spesifik untuk perangkat lunak ini di komputer ini. Ini bukan bagian dari kunci pribadi Bitcoin kamu.
 ![image](assets/20.webp)
 
-Setelah jeda, sementara komputer berpikir, Anda akan melihat tombol di sebelah kiri berubah dari abu-abu menjadi biru. Selamat, dompet Anda sekarang siap digunakan. Buat dan kirim transaksi sesuka hati Anda.
+Setelah jeda, sementara komputer berpikir, kamu akan melihat tombol di sebelah kiri berubah dari abu-abu menjadi biru. Selamat, dompetmu sekarang siap digunakan. Sekarang kamu bisa melakukan transaksi sesuka hati.
 
 ![image](assets/21.webp)
 
 ## Menerima
 
-Untuk menerima beberapa bitcoin, pergi ke tab Alamat di sebelah kiri dan pilih salah satu alamat untuk menerima. Cukup klik kanan alamat yang Anda inginkan, dan pilih "salin alamat". Kemudian pergi ke bursa tempat uang dikirim dari dan tempelkan di sana. Atau Anda dapat memberikan alamat tersebut kepada pelanggan yang dapat menggunakannya untuk membayar Anda.
+Untuk menerima Bitcoin, kamu tinggal buka tab Alamat di sebelah kiri, lalu pilih salah satu alamat yang tersedia. Klik kanan alamat tersebut dan pilih "Salin Alamat". Setelah itu, tempel alamat itu di bursa tempat kamu akan mengirim Bitcoin, atau kasih langsung ke orang yang mau bayar kamu.
 
-Ketika Anda menggunakan dompet untuk pertama kalinya, Anda harus menerima jumlah yang sangat kecil, berlatih mengirimkannya ke alamat lain, baik di dalam dompet atau kembali ke bursa, untuk membuktikan bahwa dompet berfungsi seperti yang diharapkan.
+Saat pertama kali pakai dompet, sebaiknya coba terima sedikit Bitcoin dulu, lalu kirimkan ke alamat lain — entah ke alamat lain di dompet yang sama atau balik lagi ke bursa untuk memastikan dompetnya benar-benar berfungsi seperti seharusnya.
 
-Setelah Anda melakukan itu, Anda harus mencadangkan kata-kata yang Anda tulis. Satu salinan saja tidak cukup. Miliki setidaknya dua salinan kertas (logam lebih baik), dan simpan di dua lokasi yang berbeda dan aman. Ini mengurangi risiko bencana alam menghancurkan HWW dan cadangan kertas Anda dalam satu insiden. Lihat "Menggunakan Dompet Perangkat Keras Bitcoin" untuk diskusi lengkap tentang ini.
+Setelah menulis kata-kata cadangan (seed phrase), pastikan kamu mencadangkannya. Satu salinan aja nggak cukup buat minimal dua salinan di kertas (atau logam, kalau mau lebih aman), dan simpan di dua tempat yang berbeda dan aman. Ini buat jaga-jaga kalau ada bencana yang bisa ngancurin dompet dan cadanganmu sekaligus. Untuk penjelasan lengkap, cek bagian "Menggunakan Dompet Perangkat Keras Bitcoin."
 
 ## Mengirim
 
 ![image](assets/22.webp)
 
-Saat melakukan pembayaran, Anda perlu menempelkan alamat yang Anda bayar di bidang "Bayar ke". Anda sebenarnya tidak bisa meninggalkan Label kosong, itu hanya untuk catatan dompet Anda sendiri, tetapi Sparrow tidak mengizinkannya - cukup masukkan sesuatu (hanya Anda yang akan melihatnya). Masukkan jumlah dan Anda juga dapat secara manual menyesuaikan biaya yang Anda inginkan.
+Untuk mengirim Bitcoin, tempel alamat tujuan di kolom "Bayar ke", lalu isi kolom Label dengan catatan apa saja (karena kolom ini wajib diisi di Sparrow). Setelah itu, masukkan jumlah Bitcoin yang ingin kamu kirim, dan kalau mau, kamu juga bisa atur biaya transaksinya secara manual.
 
-Dompet tidak dapat menandatangani transaksi kecuali HWW terhubung. Itulah tugas HWW - untuk menerima transaksi, menandatanganinya, dan mengembalikannya, sudah ditandatangani. Pastikan saat Anda menandatangani di perangkat, Anda secara visual memeriksa alamat yang Anda bayar sama di perangkat dan di layar komputer, dan faktur yang Anda terima (misalnya Anda mungkin telah menerima email untuk membayar alamat tertentu).
 
-Perhatikan juga jika Anda memilih untuk menggunakan koin yang lebih besar dari jumlah pembayaran, maka sisanya akan dikirim kembali ke salah satu alamat perubahan dompet Anda. Beberapa orang tidak mengetahui hal ini, dan melihat transaksi mereka di blockchain publik, dan berpikir bahwa beberapa bitcoin dikirim ke alamat penyerang, tetapi sebenarnya, itu adalah alamat perubahan mereka sendiri.
+Dompet nggak bisa menandatangani transaksi kalau perangkat keras (HWW) belum terhubung. Tugas HWW adalah menerima transaksi, menandatanganinya, lalu mengirimkannya kembali dalam keadaan sudah ditandatangani. Saat kamu menandatangani, pastikan alamat tujuan yang muncul di perangkat sama persis dengan yang ada di layar komputer dan di faktur yang kamu terima (misalnya dari email).
+
+Kalau kamu pakai koin yang nilainya lebih besar dari jumlah yang mau dikirim, sisanya akan otomatis dikirim balik ke salah satu alamat milik dompetmu sendiri (namanya alamat perubahan). Banyak orang nggak sadar soal ini, lalu panik waktu lihat di blockchain seolah-olah ada Bitcoin yang dikirim ke alamat asing padahal itu cuma balik ke alamat perubahan mereka sendiri.
 
 ## Firmware
 
-Untuk memperbarui firmware, Anda perlu terhubung ke Ledger Live. Jika Anda ingin melakukan ini, Anda harus menghapus perangkat terlebih dahulu, dan pastikan Anda memiliki kata-kata cadangan dan frasa sandi Anda tersedia untuk mengembalikan perangkat. Alasan saya lebih suka menghapus perangkat terlebih dahulu adalah bahwa Anda harus menghubungkan perangkat Anda ke Ledger Live untuk memperbarui firmware, dan saya lebih suka tidak memaparkan dompet baru Anda (yang dengan frasa sandi) ke Ledger Live, sama sekali. Saya hanya tidak percaya Ledger tidak mengekstrak informasi kunci publik saya dari perangkat saat saya terhubung ke Ledger Live. Mereka mengklaim mereka tidak melakukannya, tetapi saya tidak dapat memverifikasi itu sendiri kecuali saya membaca kode, dan memahami perangkat keras internal juga.
+Kalau mau update firmware, kamu harus sambungin perangkat ke Ledger Live. Tapi sebelum itu, aku saranin kamu hapus dulu perangkatnya. Pastikan kamu udah nyimpen kata-kata cadangan (seed phrase) dan frasa sandi, biar nanti bisa dipulihkan lagi. Aku lebih milih hapus dulu karena untuk update, perangkat harus terhubung ke Ledger Live, dan aku nggak mau dompet baruku (yang pakai frasa sandi) terekspos ke Ledger Live sama sekali. Aku pribadi kurang percaya Ledger 100%, walaupun mereka bilang nggak ngambil info kunci publik dari perangkat. Tapi aku juga nggak bisa buktiin itu, kecuali kalau aku bisa baca kodenya dan ngerti perangkat kerasnya.
 
 ## Kesimpulan
-Artikel ini menunjukkan kepada Anda cara menggunakan Ledger HWW dengan cara yang lebih aman dan lebih privat daripada yang diiklankan - tetapi artikel ini saja tidak cukup. Seperti yang saya katakan di awal, Anda harus menggabungkannya dengan informasi yang disediakan dalam "Menggunakan Dompet Perangkat Keras Bitcoin". Tips:
+Artikel ini menunjukkan kepada kita cara menggunakan Ledger HWW dengan cara yang lebih aman dan lebih privat daripada yang diiklankan - tetapi artikel ini saja tidak cukup. Seperti yang kami katakan di awal, kamu harus menggabungkannya dengan informasi yang disediakan dalam "Menggunakan Dompet Perangkat Keras Bitcoin". Tips:
 
 Alamat Lightning Statis: dandysack84@walletofsatoshi.com
 https://armantheparman.com/ledgersparrow/
 
-Untuk mendalami topik ini lebih lanjut dan memperkuat keamanan dompet Anda di Ledger Nano dengan passphrase BIP39, saya mengundang Anda untuk memeriksa tutorial lengkap ini:
+Untuk mendalami topik ini lebih lanjut dan memperkuat keamanan dompetmu di Ledger Nano dengan passphrase BIP39, kalian bisa cek tutorial lengkap ini:
 
 https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
