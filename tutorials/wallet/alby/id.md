@@ -1,7 +1,7 @@
 ---
 name: Alby
 
-description: Ekstensi browser untuk Bitcoin dan LightningNetwork
+description: Ekstensi browser untuk Bitcoin dan Lightning Network
 ---
 
 ![cover](assets/cover.webp)
