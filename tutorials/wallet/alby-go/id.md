@@ -1,6 +1,6 @@
 ---
 name: Alby Go
-description: Cara pakai Alby Go Mobile App
+description: Cara Pakai Alby Go Mobile App
 ---
 
 ![cover-green](assets/cover.webp)
