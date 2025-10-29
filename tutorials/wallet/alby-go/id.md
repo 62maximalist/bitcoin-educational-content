@@ -1,128 +1,119 @@
 ---
 name: Alby Go
-description: Guide for Alby Go mobile app
+description: Cara pakai Alby Go Mobile App
 ---
 
 ![cover-green](assets/cover.webp)
 
 
-## 🚀 Welcome to Alby Go – the easiest to use mobile Wallet
+## 🚀 Selamat datang di Alby Go – Cara Pakai Mobile Wallet Paling mudah
 
 
-**Alby Go** is an open-source, easy-to-use mobile app, that acts as a Wallet Interface to Bitcoin lightning nodes and wallets. Here’s how to get started and make the most of your experience.
+**Alby Go** adalah aplikasi seluler open-source yang mudah digunakan, berfungsi sebagai antarmuka dompet untuk node dan wallet Lightning Bitcoin. Berikut cara memulai dan memaksimalkan pengalamanmu.
 
 
-**✅ Supported & Known-Compatible Wallets/Nodes:**
+**✅ Wallet/Node yang Didukung dan Diketahui Cocok**
 
 
 
-- [Alby Hub](https://albyhub.com/) **(recommended)**
+- [Alby Hub](https://albyhub.com/) **(direkomendasikan)**
 - **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- **Coinos** *(untested)*
-- **Primal** *(untested)*
-- **Minibits** *(untested)*
+- **Coinos** *(belum dites)*
+- **Primal** *(belum dites)*
+- **Minibits** *(belum dites)*
 
-
-Most NWC-enabled services should work. If you're testing a new one, let the community know your results!
-
+Sebagian besar layanan yang mendukung NWC seharusnya bisa berfungsi. Kalau kamu sedang mencoba layanan baru, beri tahu komunitas hasilnya!
 
 ## 📲 Install Alby Go
 
 
-Available on major platforms:
+Tersedia di berbagai platform utama:
 
-
-
-- **iOS:** [Download from the App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- **Android:** [Download from Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **iOS:** [Download di App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Download di Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
 - **ZapStore**
 
 
 
 
-## 🔌 Connect a Wallet
+## 🔌 Hubungkan Wallet
 
 
-Alby Go connects to your lightning-enabled node or Wallet using an NWC (Nostr Wallet Connect) secret. You can link one or more wallets to switch between easily.
+Alby Go terhubung ke node atau wallet yang mendukung Lightning melalui NWC (Nostr Wallet Connect) secret. Kamu bisa menautkan satu atau beberapa wallet agar mudah berpindah di antaranya.
 
-Steps:
+Langkah-langkah:
 
-1. Open Settings → Wallets → Connect a Wallet
+1. Buka Settings → Wallets → Connect a Wallet
+2. Pindai kode QR atau tempelkan NWC Connection Secret misalnya: `nostr+walletconnect://...`
+3. Beri nama khusus untuk koneksi kamu
 
-2. Scan a QR code or paste an NWC Connection Secret (e.g. nostr+walletconnect://...)
-
-3. Give your connection a custom name
-
-
-Once connected, your Wallet or node is ready for sending and receiving Bitcoin lightning payments through Alby Go.
+Setelah terhubung, wallet atau node kamu siap untuk mengirim dan menerima pembayaran Bitcoin Lightning melalui Alby Go.
 
 
-✅ Tip: You can connect multiple wallets and switch between them anytime.
+✅ Tips: Kamu bisa menghubungkan beberapa wallet dan berpindah di antaranya kapan saja.
 
 
+## ⚡ Kirim Bitcoin
 
 
-## ⚡Send Bitcoin
+Untuk mengirim Sats melalui Lightning Network:
 
+1. Ketuk tombol SEND berwarna kuning besar.
 
-To send Sats over the Lightning Network:
+2. Pilih salah satu dari opsi berikut:
 
-1. Tap the big yellow **SEND button**.
+- Pindai kode QR dari invoice Lightning
 
-2. Choose one of the following:
+- Tempel invoice Lightning dari clipboard
 
+- Masukkan alamat Lightning secara manual
 
- - Scan a lightning Invoice QR code
- - Paste a lightning Invoice from the clipboard
- - Manually enter a lightning Address
-
-
-You can also select a recipient from your Address Book, where you can save lightning addresses for easy reuse.
+Kamu juga bisa memilih penerima dari Address Book, tempat kamu bisa menyimpan alamat Lightning agar mudah digunakan kembali.
 
 
 
 
-## 💸 Receive Bitcoin
+## 💸 Terima Bitcoin
 
-To receive Sats with Alby Go:
+Untuk menerima Sats dengan Alby Go:
 
-1. Tap the big yellow **RECEIVE button**.
+1. Ketuk tombol RECEIVE berwarna kuning besar.
 
-2. Choose one of the following:
+2. Pilih salah satu dari opsi berikut:
 
+- Bagikan alamat Lightning kamu yang ditampilkan
 
- - Share your lightning Address as displayed
- - Select "Amount" to generate a lightning Invoice with custom amounts
- - Click "Redeem" to scan LNURL withdraw QR codes
+- Pilih “Amount” untuk membuat invoice Lightning dengan jumlah yang bisa kamu tentukan sendiri
 
+- Ketuk “Redeem” untuk memindai kode QR LNURL withdraw
 
-Both QR codes and Invoice strings are available for the sender’s convenience.
-
-
-
-
-## 🧳 Go!
-
-Take your Bitcoin wherever you go.
-
-**Alby Go** is lightweight, fast, and easy to use—perfect for node operators and Bitcoiners on the move.
-
-No bloat. No fuss. Lightning-fast.
+Kode QR dan string invoice tersedia agar pengirim lebih mudah melakukan pembayaran.
 
 
 
 
-## 🛠️ Additional Features
+## 🧳 Lanjutkan!
+
+Bawa Bitcoin kamu ke mana pun kamu pergi.
+
+Alby Go itu aplikasi ringan, cepat, dan mudah digunakan — sempurna untuk operator node dan Bitcoiner yang sering bepergian.
+
+Tanpa fitur berlebihan. Tanpa ribet. Secepat kilat.
 
 
-- 🗺️ BTC Map (an extensive list of merchants accepting Bitcoin payments)
-- 🌗 Dark & Light mode
-- 💱 Custom currency input & calculator
-- 🧾 Transaction history
-- 👥 Address book
-- 🧷 Add, remove and export wallets
 
 
-**💡 Need Help?**
+## 🛠️ Fitur Tambahan
 
-Visit getalby.com for support and updates.
+
+- 🗺️ BTC Map (daftar lengkap merchant yang menerima pembayaran dengan Bitcoin)
+- 🌗 Mode gelap dan terang
+- 💱 Input mata uang kustom dan kalkulator
+- 🧾 Histori transaksi
+- 👥 Buku alamat
+- 🧷 Tambahkan, hapus, dan ekspor wallet
+
+
+**💡 Butuh bantuan?**
+
+Kunjungi getalby.com untuk mendapatkan dukungan dan pembaruan.
