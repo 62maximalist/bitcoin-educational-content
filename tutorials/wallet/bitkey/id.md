@@ -1,6 +1,6 @@
 ---
 name: Bitkey
-description: Hardware Wallet tanpa biji
+description: Hardware Wallet tanpa Seed
 ---
 ![cover](assets/cover.webp)
 
