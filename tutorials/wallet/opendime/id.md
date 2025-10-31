@@ -1,6 +1,6 @@
 ---
 name: OPENDIME
-description: Menyiapkan OEPNDIME Kamu
+description: Menyiapkan OPENDIME Kamu
 ---
 
 ![cover](assets/cover.webp)
