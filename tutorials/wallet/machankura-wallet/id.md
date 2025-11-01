@@ -6,50 +6,46 @@ description: Gunakan Bitcoin di ponsel apa pun, tanpa internet.
 ![cover](assets/cover.webp)
 
 
+Afrika terus maju, berinovasi, dan berkembang, tapi masih menghadapi banyak tantangan, terutama dalam hal konektivitas internet dan akses ke layanan keuangan dasar.
 
+Menurut International Telecommunication Union, pada tahun 2024 tingkat penetrasi internet di Afrika (rasio jumlah pengguna internet terhadap total populasi di benua tersebut) baru mencapai 38%, sementara rata-rata global sudah 68%.
 
-Afrika terus maju, berinovasi, dan membangun, namun terus menghadapi berbagai tantangan, terutama konektivitas Internet dan akses ke layanan keuangan dasar.
+Dalam hal akses ke layanan keuangan, layanan transfer uang lewat ponsel (mobile money) telah mengalami perkembangan pesat di benua ini, karena banyak orang masih kesulitan mengakses layanan perbankan konvensional.
 
-Menurut International Telecommunication Union, pada tahun 2024, tingkat penetrasi Internet di Afrika (rasio jumlah orang yang menggunakan Internet terhadap total populasi di benua tersebut) adalah 38%, dibandingkan dengan 68% di seluruh dunia.
-
-Berkenaan dengan akses ke layanan keuangan, layanan transfer uang (mobile money) telah mengalami booming di benua ini, menyusul sulitnya mengakses layanan kredit bank.
-
-Menghadapi situasi ini, Kgothatso Ngako, seorang pengembang dari Afrika Selatan, telah menciptakan solusi revolusioner yang memungkinkan segmen masyarakat Afrika yang tidak memiliki rekening bank dan tidak memiliki akses internet untuk mendapatkan keuntungan dari Bitcoin dengan proyeknya yang disebut **Machankura**.
-
+Menanggapi situasi ini, Kgothatso Ngako, seorang pengembang dari Afrika Selatan, menciptakan solusi revolusioner yang memungkinkan masyarakat Afrika tanpa rekening bank dan tanpa akses internet untuk tetap bisa memanfaatkan Bitcoin melalui proyeknya yang bernama **Machankura.**
 
 
 ## APA ITU MACHANKURA?
 
-Machankura, bahasa gaul Afrika Selatan yang berarti "uang", adalah sebuah proyek yang memiliki visi untuk menghubungkan daerah pedesaan di Afrika dengan ekosistem Bitcoin.
+Machankura, bahasa gaul di Afrika Selatan yang berarti "uang", adalah proyek yang memiliki visi untuk menghubungkan wilayah pedesaan di Afrika dengan ekosistem Bitcoin.
 
-Ini adalah Wallet kustodian yang memungkinkan Anda mengirim dan menerima bitcoin pada Lightning Network melalui teknologi USSD. Machankura bekerja pada semua ponsel, bahkan yang paling dasar (ponsel Symbian), menggunakan jaringan GSM tradisional.
+Ini adalah wallet kustodian yang memungkinkan kamu mengirim dan menerima bitcoin di Lightning Network lewat teknologi USSD. Machankura bisa digunakan di semua jenis ponsel, bahkan yang paling sederhana sekalipun (termasuk ponsel Symbian), karena menggunakan jaringan GSM tradisional.
 
+Tulisan **8333.mobi** yang biasanya muncul di bawah logo adalah bentuk penghormatan kecil. **8333** merupakan port default yang digunakan node Bitcoin untuk saling berkomunikasi. Machankura menegaskan bahwa Afrika tidak tertinggal dalam revolusi ini, justru menjadi tempat lahirnya inovasi di bidang tersebut.
 
-**8333.mobi** yang biasanya muncul di bagian bawah logo adalah anggukan halus. Memang, **8333** adalah port default yang digunakan oleh node Bitcoin untuk berkomunikasi satu sama lain. Machankura menunjukkan bahwa Afrika tidak ketinggalan dalam revolusi ini, dan merupakan lahan inovasi dalam bidang ini.
+Domain .mobi sendiri dibuat untuk layanan seluler yang berjalan di ponsel dasar melalui USSD. Jadi, 8333.mobi menggambarkan esensi dari solusi yang ditawarkan Machankura.
 
-Domain **.mobi** dirancang untuk layanan seluler yang berjalan pada ponsel dasar melalui USSD. Oleh karena itu, **8333.mobi** merangkum fitur-fitur khusus dari solusi Machankura.
-
-Sebelum melanjutkan tutorial ini, mari kita lihat USSD, teknologi yang memungkinkan Machankura digunakan tanpa internet.
+Sebelum masuk ke tutorialnya, yuk kita bahas dulu apa itu USSD — teknologi yang membuat Machankura bisa digunakan tanpa internet.
 
 ## USSD
 
-Teknologi USSD (*Unstructured Supplementary Service Data*) pada umumnya digunakan oleh operator seluler GSM. Ini adalah fitur yang memungkinkan Anda berkomunikasi dengan layanan jarak jauh, bahkan tanpa Internet, dengan menggunakan kode tertentu dan memilih opsi sesuai dengan kemungkinan yang ditawarkan oleh layanan tersebut.
+Teknologi USSD (*Unstructured Supplementary Service Data*) umumnya digunakan oleh operator seluler GSM. Fitur ini memungkinkan kamu berkomunikasi dengan layanan jarak jauh tanpa perlu internet, cukup dengan mengetikkan kode tertentu dan memilih opsi yang disediakan oleh layanan tersebut.
 
-Dalam proses komunikasi USSD, bayangkan Anda mengetikkan kode khusus seperti `*123#` pada ponsel Anda. Dengan menjalankan kode USSD ini, Anda mengirimkan permintaan khusus ke jaringan GSM Anda untuk mengakses layanan yang ditautkan dengan kode ini.
+Bayangkan kamu mengetik kode seperti `*123#` di ponselmu. Dengan menjalankan kode itu, kamu mengirimkan permintaan ke jaringan GSM untuk mengakses layanan yang terhubung dengan kode tersebut.
 
-Oleh karena itu, Anda dapat menggunakan USSD untuk melakukan tindakan seperti memeriksa paket Internet, pulsa, dll.
+Melalui sistem komunikasi yang sama, kamu bisa melakukan hal-hal seperti mengecek paket internet, sisa pulsa, dan lainnya.
 
-Melalui sistem komunikasi yang sama inilah mobile banking dan transfer uang mobile seperti M-PESA, MTN Mobile Money, dan lain-lain berkembang di benua ini.
+Teknologi inilah yang juga menjadi dasar bagi layanan mobile banking dan transfer uang lewat ponsel seperti M-PESA, MTN Mobile Money, dan lainnya yang berkembang pesat di benua Afrika.
 
-Seperti yang kami katakan sebelumnya, dikembangkan khusus untuk Afrika, layanan ini bekerja pada semua ponsel, tanpa memerlukan konfigurasi teknis yang rumit atau koneksi Internet.
+Seperti yang sudah disebutkan sebelumnya, layanan ini dikembangkan khusus untuk Afrika dan bisa digunakan di semua jenis ponsel tanpa perlu pengaturan teknis rumit atau koneksi internet.
 
 
 
 ## Inovasi Machankura
 
-Tidak seperti solusi Wallet konvensional, Machankura mampu menggunakan teknologi USSD untuk Address masalah nyata yang dihadapi masyarakat Afrika: jangkauan internet.
+Berbeda dari wallet konvensional, Machankura memanfaatkan teknologi USSD untuk mengatasi masalah nyata yang dihadapi banyak masyarakat Afrika: keterbatasan jangkauan internet.
 
-Machankura adalah sebuah layanan yang dikembangkan dan kemudian ditautkan ke kode GSM untuk memungkinkan pengguna menerima dan mengirim bitcoin tanpa internet. Anda bisa menggunakan layanan ini di negara-negara berikut dengan menggunakan kode USSD terkait:
+Machankura adalah layanan yang dikembangkan dan dihubungkan langsung dengan kode GSM agar pengguna bisa mengirim dan menerima bitcoin tanpa perlu koneksi internet. Kamu bisa menggunakan layanan ini di beberapa negara Afrika dengan memasukkan kode USSD yang sesuai:
 
 
 
@@ -78,20 +74,20 @@ Tutorial langkah demi langkah ini menjelaskan cara menggunakan Machankura, perta
 
 ### Buat portofolio Anda
 
-Untuk koneksi pertama Anda :
+Untuk koneksi pertama kamu :
 
-- Masukkan kode USSD yang sesuai dengan negara Anda;
+- Masukkan kode USSD yang sesuai dengan negara;
 - Tekan tombol panggil untuk memulai.
 
-Sistem akan meminta Anda untuk membuat kode PIN 5 digit
+Sistem akan memintamu untuk membuat kode PIN 5 digit
 
 - Pilih kode PIN yang aman (5 digit).
-- Konfirmasikan kode PIN Anda.
+- Konfirmasikan kode PIN.
 - Portofolio Bitcoin Anda dibuat secara instan.
 
-Bitcoin Wallet ini terkait dengan nomor telepon Anda. Kode PIN yang dipilih dengan cermat akan mengenkripsi Wallet Anda dan juga akan digunakan untuk mengonfirmasi semua transaksi Anda di masa depan di Machankura.
+Bitcoin Wallet ini terkait dengan nomor telepon kamu. Kode PIN yang dipilih dengan cermat akan mengenkripsi Wallet kamu dan juga akan digunakan untuk mengonfirmasi semua transaksi kamu di masa depan di Machankura.
 
-Setelah portofolio Anda dibuat, Anda akan mengakses menu utama dengan opsi berikut:
+Setelah portofolio dibuat, kamy akan mengakses menu utama dengan opsi berikut:
 
 1. Kirim bitcoin
 
@@ -111,54 +107,54 @@ Untuk mengakses "rincian akun", pilih opsi **3** dan tekan tombol panggil untuk 
 
 ### Keselamatan dan praktik terbaik
 
-Machankura adalah kustodian Lightning Wallet, sehingga bitcoin Anda dikelola melalui node Machankura. Akun Anda dilindungi oleh kode PIN yang Anda pilih.
+Machankura adalah kustodian Lightning Wallet, sehingga bitcoin milikmu dikelola melalui node Machankura. Akun dilindungi oleh kode PIN yang Anda pilih.
 
-- Jangan mengatur kode PIN sehubungan dengan tanggal penting dalam hidup Anda.
-- Jangan pernah membagikan kode PIN Anda kepada siapa pun.
-- Hafalkan kode PIN Anda.
+- Jangan mengatur kode PIN sehubungan dengan tanggal penting dalam hidup kamu.
+- Jangan pernah membagikan kode PIN kepada siapa pun.
+- Hafalkan kode PIN.
 - Selalu periksa nomor telepon sebelum mengirim.
 - Jaga keseimbangan yang wajar untuk penggunaan sehari-hari.
 
-Wallet Anda terhubung ke nomor telepon Anda:
+Wallet kamu terhubung ke nomor telepon Anda:
 
-- Jika Anda kehilangan ponsel Anda, hubungi dukungan Machankura;
-- Pantau transaksi penting Anda.
+- Kalau kamu kehilangan ponsel, hubungi dukungan Machankura;
+- Pantau transaksi penting.
 
 ### Menerima bitcoin
 
 - Pilih nomor pesanan dari opsi "Terima Bitcoin" di menu utama.
-- Nomor telepon Anda berfungsi sebagai Address publik Anda.
-- Bagikan nomor Anda kepada orang yang ingin mengirimi Anda bitcoin.
+- Nomor telepon kamu berfungsi sebagai Address publik Anda.
+- Bagikan nomor kamu kepada orang yang ingin mengirimi Anda bitcoin.
 
 
 #### Petir Khusus Address
 
-Setiap akun Machankura diberi Lightning Address berdasarkan nomor Machankura Anda
+Setiap akun Machankura diberi Lightning Address berdasarkan nomor Machankura
 
 `votrenumero@8333.mobi`
 
 Contoh: nomor +2371234567890 akan menjadi `+2371234567890@8333.mobi`
 
-Namun, Anda dapat memilih nama pengguna khusus untuk menggantikan nomor tersebut (misalnya `Satoshi@8333.mobi`).
+Namun, kamu bisa memilih nama pengguna khusus untuk menggantikan nomor tersebut (misalnya `Satoshi@8333.mobi`).
 
-Siapa pun yang memiliki Lightning Address dapat mengirimi Anda bitcoin tanpa mengetahui nomor telepon Anda.
+Siapa pun yang memiliki Lightning Address dapat mengirimi kamu bitcoin tanpa mengetahui nomor telepon.
 
 #### Memuat ulang portofolio Machankura Anda
 
-Selain menerima bitcoin dari Lightning Wallet lain, Anda dapat mengisi ulang Machankura Wallet Anda dengan **Azteco** dan **1Voucher** dari **Flash Group**.
+Selain menerima bitcoin dari Lightning Wallet lain, kamu bisa mengisi ulang Machankura Wallet dengan **Azteco** dan **1Voucher** dari **Flash Group**.
 
-**Azteco** dan **Flash Group** adalah dua perusahaan yang menawarkan **voucher** Bitcoin, yaitu layanan voucher prabayar yang dapat Anda beli secara online atau dari pengecer untuk mendapatkan Bitcoin tanpa melalui platform Exchange. Voucher ini berfungsi seperti **kartu hadiah**. Ada voucher **On-Chain** dan **Lightning**.
+**Azteco** dan **Flash Group** adalah dua perusahaan yang menawarkan **voucher** Bitcoin, yaitu layanan voucher prabayar yang dapat kamu beli secara online atau dari pengecer untuk mendapatkan Bitcoin tanpa melalui platform Exchange. Voucher ini berfungsi seperti **kartu hadiah**. Ada voucher **On-Chain** dan **Lightning**.
 
 ![azteco](assets/fr/01.webp)
 
 Prosesnya sederhana:
 
-- Anda membeli voucher dengan jumlah tertentu;
-- Anda menerima kode **16 digit** melalui email atau pada Invoice kecil.
+- Kamu membeli voucher dengan jumlah tertentu;
+- Kamu menerima kode **16 digit** melalui email atau pada Invoice kecil.
 
 ![bonazteco](assets/fr/02.webp)
 
-- Masukkan kode USSD MACHANKURA negara Anda pada ponsel Anda.
+- Masukkan kode USSD MACHANKURA negara pada ponselmu.
 - Tunggu sampai menu utama muncul.
 - Pilih nomor pesanan dari opsi ''Terima bitcoin''.
 - Masukkan kode 16 digit (kode referensi voucher Azteco di bagian bawah voucher atau kode PIN 1Voucher pada Invoice).
@@ -171,63 +167,63 @@ Bitcoin yang setara dengan jumlah voucher yang dibeli akan ditambahkan langsung 
 - Pilih opsi "Kirim Bitcoin" dengan memasukkan nomor pesanan.
 - Masukkan nomor telepon penerima, nama pengguna Lightning Address atau Machankura.
 - Kemudian masukkan jumlah yang akan dikirim di Sats.
-- Konfirmasikan dengan kode PIN Anda.
+- Konfirmasikan dengan kode PIN kamu.
 
-Machankura kemudian mengirimkan bitcoin melalui Lightning Network dalam hitungan detik. Pengirim juga dapat mengirim bitcoin dalam mata uang lain, termasuk mata uang lokal.
+Machankura kemudian mengirimkan bitcoin melalui Lightning Network hanya dalam hitungan detik. Pengirim juga bisa mengirim bitcoin dalam berbagai mata uang, termasuk mata uang lokal.
 
-Jika nomor penerima belum terdaftar sebagai pengguna, Machankura akan melakukan pra-pendaftaran dan kemudian mengkredit akun penerima.
+Kalau nomor penerima belum terdaftar sebagai pengguna, Machankura akan otomatis membuat pra-pendaftaran dan mengkreditkan bitcoin ke akun penerima.
 
-Sebuah pesan secara otomatis dikirim ke nomor yang telah didaftarkan sebelumnya, dan pengguna menerima bitcoinnya setelah dia mengonfirmasi pendaftarannya dengan layanan ini.
+Pesan notifikasi kemudian dikirim ke nomor tersebut, dan pengguna akan menerima bitcoinnya begitu ia menyelesaikan proses konfirmasi pendaftaran di layanan Machankura.
 
-Anda dapat menonton [video demo pengiriman](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) bitcoin oleh PIO TARAS (Pimpinan Machankura Afrique Francophone) melalui Machankura di telepon biasa.
+Kamu bisa menonton [video demo pengiriman](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) bitcoin oleh PIO TARAS (Pimpinan Machankura Afrique Francophone) melalui Machankura di telepon biasa.
 
 *Video dari Vladimir FOMENE, pengembang Bitcoin :*
 
 ![video](https://youtu.be/rrovhcpg7ao)
 
-### Periksa saldo Anda
+### Periksa saldo milikmu
 
 - Pilih nomor urut opsi "Saldo" di menu utama.
-- Saldo Anda ditampilkan dalam satoshi dan mata uang lokal yang setara.
+- Saldo ditampilkan dalam satoshi dan mata uang lokal yang setara.
 
 ### Riwayat transaksi
 
 - Pilih nomor urut opsi ''Riwayat'' di menu utama.
-- Melihat transaksi terbaru Anda (pengiriman dan penerimaan).
+- Melihat transaksi terbaru kamu (pengiriman dan penerimaan).
 - Periksa detail setiap transaksi.
 
 ### Fitur tambahan
 
-Machankura bukan hanya sekedar Wallet. Anda bisa menukarkan satoshi Anda dengan barang dan jasa (misalnya kartu hadiah Bitrefill atau Lightning Watts) langsung dari aplikasi.
+Machankura bukan cuma sekadar wallet. Kamu juga bisa menukar satoshimu dengan berbagai barang dan jasa (seperti kartu hadiah Bitrefill atau Lightning Watts) langsung dari aplikasinya
 
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-Anda juga memiliki fungsi "**Klan**", yang memungkinkan Anda untuk mengelola sistem multi-tanda tangan kooperatif: anggota klan harus menyetujui setiap pengeluaran, dan Anda dapat secara otomatis mendistribusikan dana di antara mereka.
+Ada juga fitur "Klan", yang memungkinkan kamu membuat sistem multi-tanda tangan secara kooperatif: setiap anggota klan harus menyetujui setiap pengeluaran, dan kamu bisa mengatur agar dana didistribusikan otomatis di antara mereka.
 
 ## Gunakan dengan smartphone
 
-Machankura telah memilih WhatsApp sebagai platform perantara untuk penggunaan ponsel pintar.
+Machankura memilih WhatsApp sebagai platform perantara untuk penggunaan di ponsel pintar.
 
-Ada dua alasan utama untuk ini. Langkah pertama adalah membuat solusi yang lebih mudah diakses oleh orang Afrika, tanpa memaksa mereka untuk menginstal aplikasi: aplikasi yang dapat dengan mudah dihapus jika ponsel mereka kehabisan memori penyimpanan.
+Ada dua alasan utama di balik keputusan ini. Pertama, agar solusi ini bisa lebih mudah diakses oleh masyarakat Afrika tanpa perlu menginstal aplikasi tambahan, apalagi aplikasi yang bisa saja terhapus ketika memori ponsel penuh.
 
-Yang kedua, yang merupakan perpanjangan logis dari yang pertama, adalah menjadi solusi yang inklusif dan lokal, menggunakan aplikasi yang banyak digunakan oleh orang Afrika dalam percakapan sehari-hari: WhatsApp.
+Kedua, sebagai langkah lanjutan dari alasan pertama, Machankura ingin menjadi solusi yang inklusif dan dekat dengan kehidupan sehari-hari, dengan memanfaatkan aplikasi yang sudah sangat umum digunakan oleh banyak orang Afrika: WhatsApp.
 
 ### Buat portofolio Anda
 
-Untuk memulai, Anda perlu menulis pesan ke bot WhatsApp Machankura (kata "Hai" saja sudah lebih dari cukup). Nomor WhatsApp-nya adalah [+27 73 762 5720] (https://wa.me/+27737625720).
+Untuk memulai, kamu perlu menulis pesan ke bot WhatsApp Machankura (kata "Hai" saja sudah lebih dari cukup). Nomor WhatsApp-nya adalah [+27 73 762 5720] (https://wa.me/+27737625720).
 
-Anda akan diminta untuk memilih bahasa yang Anda inginkan untuk mengobrol.
+Kamu akan diminta untuk memilih bahasa yang kamu inginkan untuk mengobrol.
 
 ![wallet](assets/fr/03.webp)
 
-Setelah Anda memilih bahasa, Anda akan dibawa ke menu utama.
+Setelah kamu memilih bahasa, kamu akan dibawa ke menu utama.
 
 - Jawab **1** yang sesuai dengan pilihan "**Buat akun**".
 - Masukkan email unik Address.
 
 ![wallet](assets/fr/04.webp)
 
-Akun Machankura Anda akan dibuat secara otomatis. Kembali ke menu untuk menentukan nama pengguna Anda.
+Akun Machankura kamu akan dibuat secara otomatis. Kembali ke menu untuk menentukan nama pengguna.
 
 Untuk melakukannya:
 
@@ -236,13 +232,13 @@ Untuk melakukannya:
 
 ![wallet](assets/fr/05.webp)
 
-Bot kemudian akan mengirimi Anda kode **6 digit** yang perlu Anda ketik, lalu pilih nama pengguna Anda. Setelah Anda memperbarui nama pengguna Anda, kembalilah ke menu untuk memanfaatkan pengiriman dan penerimaan bitcoin melalui Machankura.
+Bot kemudian akan mengirimkan kode **6 digit** yang perlu kamu masukkan, lalu kamu bisa memilih nama pengguna sendiri. Setelah nama pengguna diperbarui, kamu bisa kembali ke menu utama untuk mulai mengirim dan menerima bitcoin lewat Machankura.
 
 ![wallet](assets/fr/06.webp)
 
 ### Kirim bitcoin
 
-Machankura memungkinkan Anda untuk mengirim bitcoin Anda melalui berbagai opsi:
+Machankura memungkinkanmu untuk mengirim bitcoin melalui berbagai opsi:
 
 - nomor telepon ;
 - lightning Address, format Bitcoin Address yang dapat dibaca manusia ini jauh lebih banyak digunakan untuk menghindari kesalahan pengetikan saat melakukan pembayaran;
@@ -252,11 +248,11 @@ Machankura memungkinkan Anda untuk mengirim bitcoin Anda melalui berbagai opsi:
 
 https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
-Machankura memungkinkan interoperabilitas antara dompet Lightning yang berbeda. Dalam demonstrasi ini, kami mengirim bitcoin dari Machankura WhatsApp Wallet kami ke Wallet dari Satoshi Wallet.
+Machankura juga mendukung interoperabilitas antar-wallet Lightning. Dalam contoh ini, kita mengirim bitcoin dari Machankura WhatsApp Wallet ke Wallet of Satoshi.
 
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-Untuk mengirim, masukkan angka 1, sesuai dengan opsi "SEND BTC". Selanjutnya, pilih opsi pengiriman "Lightning Address", lalu masukkan Address tujuan pengiriman bitcoin. Terakhir, pilih ukuran nilai "Sats", tunjukkan jumlah satoshi yang akan dikirim dan konfirmasikan pengiriman.
+Untuk mengirim, ketik angka 1 sesuai dengan opsi "SEND BTC". Setelah itu, pilih metode pengiriman "Lightning Address", lalu masukkan alamat tujuan pengiriman bitcoin. Terakhir, pilih satuan nilai "Sats", tentukan jumlah satoshi yang ingin kamu kirim, dan konfirmasikan pengiriman.
 
 ![wallet](assets/fr/07.webp)
 
@@ -264,11 +260,11 @@ Untuk mengirim, masukkan angka 1, sesuai dengan opsi "SEND BTC". Selanjutnya, pi
 
 ![wallet](assets/fr/09.webp)
 
-Selamat! Anda baru saja mengirimkan satoshi kepada penerima.
+Selamat! Kamu baru saja mengirimkan satoshi kepada penerima.
 
 ### Menerima bitcoin
 
-Setelah berada di menu, pilih **2**, yang sesuai dengan opsi ''**Terima BTC**''. Bot akan menampilkan Lightning Address Anda.
+Setelah berada di menu, pilih **2**, yang sesuai dengan opsi ''**Terima BTC**''. Bot akan menampilkan Lightning Address.
 
 Kamera ini juga menawarkan beragam opsi, termasuk :
 
@@ -277,29 +273,29 @@ Kamera ini juga menawarkan beragam opsi, termasuk :
 - Kode QR;
 - On-Chain Address.
 
-Opsi 1 ''GUNAKAN BTC'' memungkinkan Anda untuk mengisi ulang akun Anda dengan voucher Azteco.
+Opsi 1 ''GUNAKAN BTC'' memungkinkan kamu untuk mengisi ulang akun milikmu dengan voucher Azteco.
 
 ![wallet](assets/fr/10.webp)
 
-Opsi 4 ''A ONE-TIME Address'' memungkinkan Anda untuk mendapatkan On-Chain Address baru sekali pakai untuk anonimitas yang lebih baik.
+Opsi 4 ''A ONE-TIME Address'' memungkinkanmu untuk mendapatkan On-Chain Address baru sekali pakai untuk anonimitas yang lebih baik.
 
 ![wallet](assets/fr/11.webp)
 
-Opsi lainnya mengarahkan Anda ke halaman web yang terhubung ke Lightning Address Anda.
+Opsi lainnya mengarahkan kamu ke halaman web yang terhubung ke Lightning Address milikmu.
 
 ![wallet](assets/fr/12.webp)
 
 ![wallet](assets/fr/13.webp)
 
-Anda dapat membeli :
+Kamu bisa membeli :
 
-- atau kode QR dari Wallet Anda;
+- atau kode QR dari Wallet kamu;
 
 ![wallet](assets/fr/14.webp)
 
 - atau generate atau Lightning Invoice di halaman web ini.
 - 
-Untuk mendapatkan Invoice yang akurat, mohon sebutkan unit akun dan jumlah bitcoin dalam unit akun yang ingin Anda terima.
+Untuk mendapatkan Invoice yang akurat, mohon sebutkan unit akun dan jumlah bitcoin dalam unit akun yang ingin kamu terima.
 
 Setelah memasukkan jumlah dalam unit akun ini, sistem akan mengonversi ekuivalennya ke dalam Bitcoin, dan sebaliknya.
 
@@ -309,13 +305,13 @@ Setelah memasukkan jumlah dalam unit akun ini, sistem akan mengonversi ekuivalen
 
 ![wallet](assets/fr/17.webp)
 
-Perhatikan bahwa Anda juga dapat memperoleh On-Chain Address pada halaman web yang terhubung ke portofolio Anda.
+Perhatikan bahwa kamu juga dapat memperoleh On-Chain Address pada halaman web yang terhubung ke portofolio milikmu.
 
 ![wallet](assets/fr/18.webp)
 
 ![wallet](assets/fr/19.webp)
 
-Terlebih lagi, Machankura memungkinkan siapa pun yang ingin mengirimi Anda bitcoin untuk melakukannya dari situs web Anda, menggunakan Wallet khusus. Yang harus Anda lakukan adalah mengirimi mereka tautan ke halaman web yang terkait dengan Lightning Address Anda. Setelah mereka mengakses halaman web ini, mereka akan dapat membuka kode QR atau Invoice Anda secara langsung di Wallet mereka.
+Selain itu, Machankura juga memungkinkan siapa pun mengirimkan bitcoin kepadamu langsung dari situs web pribadimu menggunakan wallet khusus. Kamu hanya perlu membagikan tautan ke halaman web yang terhubung dengan Lightning Address milikmu. Setelah mereka membuka halaman tersebut, mereka bisa langsung melihat kode QR atau invoice-mu dan membayarnya lewat wallet mereka.
 
 ![wallet](assets/fr/20.webp)
 
@@ -327,10 +323,10 @@ https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-370
 
 ### Pemeriksaan saldo
 
-Anda dapat melihat saldo portofolio Machankura Anda dengan memilih opsi 3, yang sesuai dengan opsi "Saldo dan riwayat".
+Kamu bisa melihat saldo wallet Machankura-mu dengan memilih opsi 3, yang sesuai dengan "Saldo dan riwayat".
 
 ![wallet](assets/fr/22.webp)
 
-Selamat! Sekarang Anda sudah bisa menggunakan Machankura untuk menerima dan membelanjakan bitcoin.
+Selamat! Sekarang kamu sudah bisa menggunakan Machankura untuk menerima dan membelanjakan bitcoin.
 
-Jika Anda merasa tutorial ini bermanfaat, silakan tinggalkan jempol Green di bawah ini. Terima kasih banyak!
+Kalau kamu merasa tutorial ini bermanfaat, jangan lupa kasih jempol hijau di bawah, ya. Terima kasih banyak!
