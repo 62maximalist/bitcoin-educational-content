@@ -6,8 +6,7 @@ description: Ketahui cara menggunakan Wallet Bull Bitcoin
 ![cover](assets/cover.webp)
 
 
-
-Panduan ini memandu Anda melalui instalasi, konfigurasi, dan penggunaan Bull Bitcoin Mobile. Anda akan mempelajari cara menerima dan mengirim dana pada tiga jaringan: onchain, Liquid dan Lightning, dan cara mentransfer Bitcoin Anda dari satu jaringan ke jaringan lainnya. Lampiran menyediakan sumber daya dan kontak, informasi latar belakang, dan penjelasan singkat tentang konsep teknis.
+Panduan ini akan memandu kamu dalam menginstal, mengatur, dan menggunakan Bull Bitcoin Mobile. Kamu bakal belajar cara menerima dan mengirim dana di tiga jaringan: onchain, Liquid, dan Lightning, serta cara memindahkan Bitcoin kamu dari satu jaringan ke jaringan lainnya. Di bagian lampiran, kamu bisa menemukan sumber daya dan kontak, informasi latar belakang, serta penjelasan singkat tentang konsep teknis.
 
 
 
@@ -15,19 +14,11 @@ Panduan ini memandu Anda melalui instalasi, konfigurasi, dan penggunaan Bull Bit
 
 
 
-**Bull Bitcoin Mobile**, yang dikembangkan oleh **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([buat akun](https://app.bullbitcoin.com/registration/orangepeel)), merupakan **self-custodial** Bitcoin Wallet, yang berarti Anda memiliki kontrol penuh atas kunci pribadi Anda dan juga dana Anda, tanpa bergantung pada pihak ketiga. Bersifat open-source dan berakar pada filosofi Cypherpunk, Wallet ini menggabungkan kesederhanaan, kerahasiaan, dan fitur-fitur canggih seperti pertukaran lintas jaringan dan dukungan PayJoin. Ini memungkinkan Anda untuk mengelola bitcoin Anda di tiga jaringan: **Bitcoin onchain**, **Liquid** dan **Lightning**, masing-masing disesuaikan untuk penggunaan tertentu.
-
-
+**Bull Bitcoin Mobile**, yang dikembangkan oleh **[Bull Bitcoin](https://www.bullbitcoin.com/)** ([buat akun](https://app.bullbitcoin.com/registration/orangepeel)), merupakan **self-custodial** Bitcoin Wallet, yang berarti kamu memiliki kontrol penuh atas kunci pribadi dan juga uang milikmu, tanpa bergantung pada pihak ketiga. Bersifat open-source dan berakar pada filosofi Cypherpunk, Wallet ini menggabungkan kesederhanaan, kerahasiaan, dan fitur-fitur canggih seperti pertukaran lintas jaringan dan dukungan PayJoin. Ini memungkinkan kamu untuk mengelola bitcoin di tiga jaringan: **Bitcoin onchain**, **Liquid** dan **Lightning**, masing-masing disesuaikan untuk penggunaan tertentu.
 
 ### Konteks pengembangan
 
-
-
-Wallet menjawab tantangan besar: Biaya jaringan Bitcoin tidak cocok untuk pembayaran dalam jumlah kecil, atau untuk membuka saluran Lightning kecil yang dihosting sendiri. Wallet Bull Bitcoin Mobile menawarkan solusi kustodian mandiri dengan tetap mengandalkan 3 jaringan utama Bitcoin:
-
-
-
-
+Wallet ini menjawab tantangan besar: biaya jaringan Bitcoin nggak cocok untuk pembayaran kecil atau untuk membuka saluran Lightning kecil yang kamu kelola sendiri. Bull Bitcoin Mobile menawarkan solusi kustodian mandiri yang tetap bergantung pada tiga jaringan utama Bitcoin:
 
 - **Jaringan Bitcoin (onchain)**: Ideal untuk penyimpanan UTXO jangka menengah hingga jangka panjang dan transaksi bernilai besar, di mana biaya dapat diabaikan secara proporsional.
 - **Liquid Network**: Dirancang untuk transaksi yang cepat (~2 menit), lebih rahasia (jumlah tersembunyi), dan berbiaya rendah, cocok untuk mengakumulasi jumlah kecil atau melindungi privasi Anda.
