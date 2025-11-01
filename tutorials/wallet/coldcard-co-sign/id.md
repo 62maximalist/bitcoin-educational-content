@@ -1,6 +1,6 @@
 ---
 name: COLDCARD - Tanda Tangan Bersama
-description: Temukan fitur Co-Sign dan gunakan di COLDCARD Anda
+description: Temukan fitur Co-Sign dan gunakan di COLDCARD kamu
 ---
 
 ![cover](assets/cover.webp)
