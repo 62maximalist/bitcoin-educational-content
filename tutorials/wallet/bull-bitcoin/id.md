@@ -1156,135 +1156,55 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### A5. Banteng Bitcoin
 
-
-
 #### Gambaran umum perusahaan
-
-
 
 **[Bull Bitcoin](https://www.bullbitcoin.com/fr)**, adalah platform Exchange non-depositori tertua yang didedikasikan khusus untuk Bitcoin, didirikan pada tahun 2013 di Kedutaan Besar Bitcoin di Montreal, Kanada. Dipimpin oleh Francis Pouliot, pelopor yang diakui dalam ekosistem Bitcoin, perusahaan ini memposisikan diri sebagai pemain kunci dalam mempromosikan kedaulatan keuangan dan otonomi pengguna. Misinya adalah memungkinkan individu untuk mendapatkan kembali kendali atas uang mereka dengan menggunakan Bitcoin sebagai alat untuk kebebasan dan pembayaran, sambil menolak mata uang fiat dan mata uang kripto selain Bitcoin.
 
-
-
 ![image](assets/fr/26.webp)
-
-
 
 [Buat akun Anda] (https://app.bullbitcoin.com/registration/orangepeel) dengan diskon 0,25% untuk pembelian dan penjualan Bitcoin.
 
-
-
 #### Nilai-nilai dan filosofi
-
-
 
 Bull Bitcoin menonjol karena prinsip-prinsip Commitment hingga Cypherpunk dan etika Bitcoin:
 
-
-
-
-
 - **Fokus eksklusif pada Bitcoin**: Platform ini sesuai dengan visi mata uang yang terdesentralisasi dan tahan sensor.
-
-
-
-
 
 - **Bukan kustodian**: Pengguna memegang kendali penuh atas Bitcoin mereka dengan mengirimkan dana ke portofolio mereka sendiri.
 
-
-
-
-
 - **Kerahasiaan**: Meminimalkan pengumpulan data pribadi, dengan opsi pembelian bebas KYC untuk transaksi di bawah 999 USD. Data dilindungi sesuai dengan peraturan (FINTRAC di Kanada, AMF di Prancis).
 
-
-
-
-
 - **Transparansi**: Tidak ada biaya tersembunyi, biaya sudah termasuk dalam spread (selisih antara harga beli dan harga jual).
-
-
-
-
 
 - **Kedaulatan finansial**: Bull Bitcoin mendorong kemandirian dari sistem perbankan tradisional dan lembaga-lembaga terpusat.
 
 
-
 #### Layanan utama
 
-
-
-
-
 - **Setoran fiat**: Pengguna dapat mendanai akun Bull Bitcoin dengan mata uang fiat (CAD, EUR, dll.) melalui transfer bank atau kartu tunai/debit di kantor pos Kanada tertentu.
-
-
-
-
 
 - **Membeli Bitcoin**: Pengguna dapat membeli Bitcoin yang dikirim langsung ke portofolio non-deposito mereka, menjamin kontrol penuh atas dana mereka.
 
 
-
-
-
 - **Pembelian Bitcoin terjadwal**: Bull Bitcoin menawarkan layanan pembelian berulang otomatis (DCA - Dollar Cost Averaging) secara berkala, menggunakan saldo Anda yang tersedia, dengan transfer Bitcoin langsung ke Wallet yang dikendalikan pengguna, sehingga mengurangi dampak volatilitas harga.
-
-
 
 Perhatikan bahwa opsi yang disebut "AutoBuy" memungkinkan Anda untuk mengonversi fiat Anda segera setelah menyentuh saldo Bull Bitcoin Anda, dan mengirim Bitcoin Anda ke Wallet Anda sendiri. Opsi ini juga dapat dikombinasikan dengan transfer bank berulang yang dijadwalkan dengan bank Anda untuk membuat DCA. Opsi ini mengotomatiskan akumulasi Bitcoin Anda tanpa harus membuka aplikasi.
 
-
-
-
-
-
 - Membeli Bitcoin pada harga tetap **'Limit Order'**: Memungkinkan Anda membeli Bitcoin pada harga yang ditentukan sebelumnya oleh pengguna, yang secara otomatis dieksekusi ketika harga indeks Bull Bitcoin mencapai atau turun di bawah batas yang ditetapkan.
-
-
-
-
 
 - **Menjual Bitcoin**: Pengguna dapat menjual Bitcoin mereka dan menerima dana dalam mata uang fiat langsung ke rekening bank mereka melalui transfer bank atau SEPA.
 
-
-
-
-
 - **Pembayaran pihak ketiga**: Bull Bitcoin memungkinkan pengguna untuk mengirim uang fiat ke rekening bank dari Bitcoin mereka, sepenuhnya transparan kepada penerima.
-
-
-
-
 
 - **Bull Bitcoin Prime**: Bull Bitcoin Prime adalah layanan premium untuk nasabah dengan kekayaan bersih tinggi dan nasabah perusahaan, yang menawarkan solusi khusus dan dukungan premium. Layanan ini mencakup akses ke biaya yang lebih rendah, manajer akun khusus, dan layanan korporat yang disesuaikan. Layanan ini ditujukan untuk institusi, trader profesional, dan klien korporat yang mencari keahlian mendalam dan layanan prioritas.
 
-
-
-
-
 - **Mobile Wallet**: Bull Bitcoin menawarkan Wallet seluler sumber terbuka, kustodian mandiri, tersedia di Android dan iOS, yang mendukung transaksi onchain, Liquid, dan Lightning Network.
 
-
-
-
-
 - **Dukungan pendidikan**: Panduan gratis dan pelatihan yang dipersonalisasi untuk membantu pengguna membuat, mengamankan, dan mengelola portofolio Bitcoin mereka, sehingga memperkuat otonomi keuangan.
-
-
+  
 
 #### Kepatuhan dan keamanan
 
-
-
-
-
 - **Regulasi**: Terdaftar di FINTRAC (Kanada) dan AMF (Prancis), Bull Bitcoin mematuhi persyaratan KYC/AML.
-
-
-
-
 
 - **Keamanan**: Penggunaan portofolio yang aman dan rekomendasi penyimpanan offline. Data pribadi dihosted pada infrastruktur Bitcoin Bull, yang 100% dihosting sendiri dan tidak bergantung pada pihak ketiga mana pun.
