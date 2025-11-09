@@ -11,7 +11,7 @@ Di seluruh dunia, berbagai inisiatif, komunitas, dan ekonomi sirkular mulai berm
 
 ## Memulai dengan Fedi Wallet
 
-Fedi Wallet adalah aplikasi seluler yang tersedia di Android (Google Play Store) dan iOS (Apple Store), yang menyatukan seluruh ekosistem fitur yang dapat disesuaikan untuk memenuhi kebutuhan komunitas Anda.
+Fedi Wallet adalah aplikasi seluler yang tersedia di Android (Google Play Store) dan iOS (Apple Store), yang menyatukan seluruh ekosistem fitur yang dapat disesuaikan untuk memenuhi kebutuhan komunitas kamu.
 
 ⚠️ Sangat penting untuk mengunduh dan menginstal Fedi Wallet lewat platform resmi supaya aplikasi yang kamu pakai benar-benar terjamin keandalan dan keasliannya.
 
@@ -114,7 +114,7 @@ Kamu bisa langsung kirim satoshi ke pengguna ini tanpa harus keluar dari percaka
 
 Menu modular Fedi memungkinkan kamu menemukan aplikasi terbaik yang digunakan oleh komunitasmu.
 
-Dalam menu **Mods**, Anda akan menemukan aplikasi seperti :
+Dalam menu **Mods**, kamu akan menemukan aplikasi seperti :
 
 - Isi ulang bit
 - 
@@ -130,7 +130,7 @@ Di halaman beranda, kamu juga bakal menemukan modul-modul terpopuler dalam feder
 
 ![popular-mods](assets/fr/12.webp)
 
-Pada menu **Mods**, Anda dapat meminta pembuatan federasi sendiri untuk komunitas Anda.
+Pada menu **Mods**, kamu bisa meminta pembuatan federasi sendiri untuk komunitas kamu.
 
 Klik modul **Buat Federasi,** lalu mulai proses pembuatan federasi kamu. Pembuatan federasi yang divalidasi oleh Fedi melibatkan sesi pelatihan pendampingan yang dipandu oleh Mentor Bitcoin dan tim Fedi, di mana para inisiator bisa mendiskusikan tujuan komunitas mereka serta detail implementasi federasi. Tujuan utama dari program ini adalah menyaring inisiatif federasi supaya penggunaan Bitcoin di komunitas benar-benar konstruktif.
 
