@@ -1,0 +1,397 @@
+---
+name: Blink Wallet
+description: Tutorial Lengkap Blink Wallet - Kirim, Terima, dan Gunakan Bitcoin dengan Mudah
+---
+
+![cover](assets/cover.webp)
+
+
+
+![Tutoriel by BTC Session](https://youtu.be/q3QwxCd1EZE)
+
+
+
+## Apa itu Blink Wallet?
+
+
+![image](assets/fr/01.webp)
+
+
+Lupakan semua yang kamu kira tahu tentang dompet Bitcoin yang rumit. Blink adalah iPhone-nya dompet Bitcoin.
+
+
+Dulu namanya Bitcoin Beach Wallet, sekarang jadi Blink. Ini adalah aplikasi seluler yang gampang banget dipakai buat ngenalin Bitcoin ke semua orang, di mana pun mereka berada. Awalnya dibuat untuk komunitas Bitcoin Beach di El Salvador, sekarang Blink udah bantu orang di seluruh dunia buat kirim, terima, dan pakai Bitcoin dengan mudah.
+
+
+Mau kamu baru kenal Bitcoin atau udah berpengalaman, panduan ini bakal ngebawa kamu lewat semua hal penting yang perlu kamu tahu buat mulai.
+
+
+### Fitur Utama:
+
+
+
+- Dukungan Dua Mata Uang: Simpan Bitcoin (BTC) dan Stablesats (setara USD) dengan gampang.
+- Lightning Network: Transaksi Bitcoin yang cepat dan murah
+- Kurs Stabil: Tetap jaga nilai kamu dalam USD sambil tetap pakai jaringan pembayaran Bitcoin.
+- Penyiapan Mudah: Cukup pakai nomor telepon kamu.
+- Peta Pedagang Global: Cari bisnis yang menerima Bitcoin.
+
+
+Bagian paling asiknya? Kamu bisa pindah dari “Aku mau simpan Bitcoin karena yakin harganya bakal naik” ke “Aku cuma mau dolar yang stabil buat beli kopi” cukup dengan satu ketukan.
+
+
+## Prasyarat
+
+
+Sebelum mulai, kamu perlu:
+
+
+- Smartphone (iOS atau Android)
+- Nomor telepon (untuk verifikasi)
+- Akses internet
+
+
+## Pengaturan Awal
+
+
+Yang akan bikin kamu kaget: Bikin akun Blink itu lebih cepat daripada bikin akun media sosial. Nggak perlu dokumen, nggak perlu upload identitas, dan nggak perlu nunggu. Cepat dan gampang.
+
+
+**Seluruh proses:**
+
+
+- Download Blink Wallet
+ - Cari "Blink Wallet" di [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) atau [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), tergantung perangkatmu.
+ - Kamu juga bisa mendownloadnya secara langsung dari [situs web Blink Wallet](https://blink.sv).
+- Membuat Wallet
+ - Ketuk "Buat Wallet Baru"
+ - Menyetujui syarat dan ketentuan
+ - Masukkan nomor telepon milikmu
+ - Verifikasi menggunakan SMS atau WhatsApp untuk menerima kode
+ - Masukkan kode untuk memverifikasi
+- Selesai, itu aja.
+ - Nomor telepon Anda menjadi opsi login . Selesai.
+
+
+## Memahami Wallet Interface Anda
+
+
+![image](assets/fr/02.webp)
+
+
+Ketika kamu membuka [Blink Wallet] (https://blink.sv/) untuk pertama kalinya, Kamu bakal ngelihat tampilan yang bersih dan segar. Nggak ada grafik yang rame, nggak ada angka kedip-kedip—cuma saldo kamu dan beberapa tombol simpel.
+
+
+### Ringkasan Layar Utama
+
+
+
+- Saldo Total: Menunjukkan nilai gabungan dari saldo Bitcoin dan USD
+- Saldo Rekening:
+ - Bitcoin: Ditampilkan dalam Sats (unit Bitcoin terkecil)
+ - Dolar:  Nilai stabil dalam bentuk USD
+
+
+
+- Tombol Aksi: Empat tombol yang perlu kamu tahu.
+ - Mengonversi
+ - Menerima
+ - Kirim
+ - Pindai QR
+- Riwayat Transaksi: Semua transaksi kamu sebelumnya
+- Grafik Harga: Pelacakan harga Bitcoin (ketuk ikon grafik)
+
+
+### Pengaturan Penting & Cara Mengatur Lightning Address Anda
+
+
+#### Menyiapkan Lightning Address Anda
+
+
+
+- Buka Pengaturan → Lightning Address milikmu
+- Pilih Address khusus Anda (misalnya, "yourname@pay.blink.sv")
+- Ini menjadi Bitcoin Address permanen milikmu yang dapat digunakan siapa saja untuk mengirimkan uang
+
+
+#### Pengaturan Lain untuk Dikonfigurasi:
+
+
+
+- Mata Uang Default: Memilih bagaimana saldo ditampilkan
+- Akun Default: Pilih ke mana dana yang masuk akan disimpan.
+- Atur Email Kamu: Tambahkan email untuk pemulihan akun.
+- Keamanan Pada Perangkat: Mengaktifkan PIN atau biometrik
+- Batas Transaksi:
+ - Menerima: Tidak terbatas
+ - Penarikan: $2.000/hari
+ - Transfer Wallet ke Wallet: $4.000/hari
+
+
+## Cara Menerima Bitcoin Menggunakan Blink Wallet
+
+
+### Metode 1: Kode QR (Paling Umum)
+
+
+
+- Ketuk "Terima" pada layar beranda Blink Wallet.
+- Pilih mata uang yang ingin kamu terima:
+ - Bitcoin (BTC), atau
+ - USD (Stablesats)
+- Untuk meminta jumlah tertentu:
+ - Ketuk "Tetapkan Jumlah"
+ - Masukkan jumlah yang ingin kamu terima
+ - Bagikan kode QR atau tautan pembayaran yang dihasilkan dengan pengirim
+- Untuk memungkinkan jumlah yang fleksibel (tidak ada nilai yang ditetapkan):
+ - Lewati langkah "Tetapkan Jumlah"
+ - Cukup bagikan kode QR
+ - Pengirim memutuskan berapa banyak yang akan dikirim
+ - Pengirim memutuskan berapa banyak yang akan dikirim
+
+
+### Metode 2: Petir Address
+
+
+
+- Bagikan petir Address (yourname@pay.blink.sv) kamu dengan siapa pun
+- Mereka dapat mengirim Bitcoin secara langsung hanya dengan menggunakan Address ini
+- Tidak perlu kode QR atau faktur
+- Dapat digunakan dengan Wallet yang kompatibel dengan Lightning
+
+
+### Metode 3: On-Chain Bitcoin (Tradisional)
+
+
+
+- Di layar penerimaan, ketuk "Onchain"
+- Gunakan ini untuk transaksi Bitcoin tradisional
+- Catatan: Biaya lebih tinggi dan waktu konfirmasi lebih lambat
+- Terbaik untuk jumlah yang lebih besar atau ketika Lightning tidak tersedia
+
+
+## Cara Mengirim Bitcoin Menggunakan Blink Wallet
+
+
+### Mengirim dengan Kode QR
+
+
+
+- Klik "Kirim" pada layar utama
+- Klik ikon kamera untuk memindai kode QR
+- Pilih akun mana yang akan digunakan untuk mengirim (Bitcoin atau USD)
+- Cek jumlah dan biaya
+- Konfirmasikan pembayaran
+
+
+### Mengirim dengan Permintaan Pembayaran/Faktur
+
+
+
+- Klik "Kirim"
+- Menempelkan permintaan pembayaran (disalin dari teks/email)
+- Ikuti langkah-langkah yang sama seperti pengiriman kode QR
+
+
+### Mengirim ke Alamat Lightning
+
+
+
+- Ketuk "Kirim"
+- Ketik atau tempelkan petir Address (terlihat seperti email)
+- Masukkan jumlah yang ingin kamu kirim
+- Pilih akun pengirim kamu dan konfirmasikan
+
+
+### Mengirim ke Pengguna Blink Lainnya
+
+
+
+- Nggak ada biaya saat mengirim ke pengguna Blink Wallet lainnya
+- Penerima otomatis jadi kontak biar transaksi ke depannya lebih gampang.
+
+## Konversi Antara Bitcoin dan USD dengan Blink Wallet
+
+
+Salah satu fitur Blink Wallet yang paling keren adalah kemampuannya yang mulus untuk mengkonversi antara Bitcoin dan Stablesats (USD). Ikuti panduan langkah demi langkah sederhana ini:
+
+
+
+- Ketuk tombol "Konversi" pada layar utama
+- Pilih arah konversi:
+ - Bitcoin → USD
+ - USD → Bitcoin
+- Tetapkan jumlah dengan:
+ - Masukkan jumlah Bitcoin atau USD tertentu, atau
+ - Pilih persentase dari saldo milikmu (25%, 50%, 75%, 100%)
+- Tinjau tingkat konversi
+- Konfirmasikan konversi untuk menyelesaikan proses.
+
+
+Kasus Penggunaan:
+
+
+- Konversikan ke USD saat harga Bitcoin turun.
+- Konversikan ke Bitcoin jika kamu ingin memegang atau berinvestasi jangka panjang.
+- Lakukan pembelanjaan dalam USD untuk menghindari volatilitas harga dalam transaksi harianmu.
+- Beralihlah antara BTC dan USD untuk mengambil keuntungan dari pergerakan pasar.
+
+
+## Fitur Pedagang di Blink Wallet
+
+
+### Menemukan Bisnis yang Menerima Bitcoin
+
+
+
+- Ketuk ikon "Peta" di bagian bawah
+- Jelajahi lokasi yang menerima pembayaran Bitcoin
+- Ketuk bisnis apa pun untuk:
+ - Kirimkan pembayaran secara langsung kepada mereka
+ - Dapatkan petunjuk arah melalui Google Maps
+
+
+### Untuk Pemilik Bisnis: Fitur Kasir
+
+
+Akses alat bantu pedagang tingkat lanjut di Pengaturan → Cara Mendapatkan Pembayaran:
+
+
+
+- Mesin Kasir Lightning:
+ - Terminal titik penjualan berbasis web
+ - Gunakan di perangkat apa pun dengan browser
+ - Membuat faktur untuk jumlah tertentu
+- Kode QR yang dapat dicetak:
+ - Kode QR generate untuk bisnismu
+ - Cetak dan tampilkan untuk dipindai oleh pelanggan
+ - Tidak ada jumlah yang ditentukan - pelanggan memilih berapa banyak yang akan diberikan untuk tip/bayar
+
+
+Dapatkan lebih banyak wawasan di [Blink POS](https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos), dan jelajahi sumber daya pedagang yang berharga di [Sumber daya Branding dan Onboarding Blink](https://www.blink.sv/en/brand).
+
+
+## Belajar dan Menghasilkan Bitcoin menjadi MUDAH dengan Blink
+
+
+Bagian "Hasilkan" yang terletak di bagian bawah halaman utama, membantu pendatang baru belajar tentang Bitcoin sambil menghasilkan sedikit uang:
+
+
+- Ketuk "Hasilkan" dari menu bagian bawah
+- Pelajaran singkat lengkap tentang Bitcoin
+- Menjawab pertanyaan sederhana dengan benar
+- Dapatkan Sats untuk setiap pelajaran yang diselesaikan
+- Bangun pengetahuan Bitcoin Anda secara bertahap
+
+
+Topik-topik yang dibahas meliputi:
+
+
+- Apa itu Bitcoin?
+- Bagaimana cara kerja Lightning Network?
+- Bitcoin vs uang tradisional
+- Praktik-praktik terbaik keamanan
+
+
+## Pengorbanan Penting yang Perlu Dipertimbangkan
+
+
+### Sifat Kustodian
+
+
+Blink adalah kustodian Wallet, yang berarti mereka menyimpan dan mengelola dana milikmu atas namamu sendiri.
+
+
+
+- Kelebihan Penyiapan yang sederhana, Interface yang mudah digunakan, tersedia dukungan pelanggan
+- Kekurangan: Kamu tidak mengontrol [kunci pribadi] Anda (https://www.blink.sv/blog/not-your-keys-not-your-coins), yang berarti kamu mengandalkan Blink untuk mengelola uangmu.
+
+
+### Batas Transaksi
+
+
+
+- Ada batas harian
+- Batas dapat ditingkatkan berdasarkan permintaan
+- Pertimbangkan opsi penyimpanan mandiri untuk jumlah yang lebih besar
+
+
+### Pertimbangan Privasi
+
+
+
+- Nomor telepon yang diperlukan untuk pembuatan akun
+- Riwayat transaksi disimpan di server Blink, yang mungkin nggak cocok buat semua orang dari sisi privasi.
+
+
+## Mendapatkan Hasil Maksimal dari Blink Wallet
+
+
+### Praktik Terbaik:
+
+
+
+- Mulailah dari yang kecil - Berlatihlah dengan jumlah kecil terlebih dahulu
+- Gunakan alamat Lightning - Bagikan Address milikmu secara publik untuk pembayaran yang mudah
+- Pahami perbedaannya - Ketahui kapan harus menggunakan Lightning vs On-Chain
+- Teruslah belajar - Gunakan bagian penghasilan untuk membangun pengetahuan Bitcoin
+- Pertimbangkan kebutuhan kamu – Cek lagi apakah solusi kustodian cocok sama cara kamu mau pakai.
+
+
+### Kapan Menggunakan Setiap Fitur:
+
+
+
+- Keseimbangan Bitcoin: Untuk penyimpanan/penumpukan jangka panjang
+- Saldo USD: Untuk uang belanja yang stabil, menghindari volatilitas
+- Pembayaran Lightning: Untuk transaksi yang cepat dan murah
+- Pembayaran On-Chain: Untuk jumlah yang lebih besar atau ketika Lightning tidak tersedia
+
+
+## Mendapatkan Bantuan dan Langkah Selanjutnya
+
+
+### Jika Anda Membutuhkan Dukungan:
+
+
+
+- Lihat dokumentasi dan [FAQ] Blink (https://faq.blink.sv/)
+- Hubungi dukungan pelanggan melalui aplikasi
+- Periksa [Halaman dukungan Blink](https://www.blink.sv/en/support)
+- Bergabunglah dengan [komunitas Blink Telegram](https://t.me/blinkbtc) untuk pertanyaan umum
+
+
+### Memajukan Perjalanan Bitcoin Anda:
+
+
+Setelah Anda merasa nyaman dengan Blink, Anda mungkin ingin menjelajah:
+
+
+
+- Dompet penitipan mandiri untuk jumlah yang lebih besar
+- Menjalankan simpul Lightning-mu sendiri
+- Dompet perangkat keras untuk penyimpanan jangka panjang
+- Fitur Bitcoin yang lebih canggih
+
+
+## Pendapat Akhir: Sederhana, Bertenaga, dan Siap Digunakan Sehari-hari
+
+
+![image](assets/fr/03.webp)
+
+
+[Blink Wallet] (https://blink.sv/) menyediakan titik masuk yang sangat baik ke dalam dunia Bitcoin. Kombinasi kemudahan penggunaan, dukungan dua jenis mata uang, dan integrasi [Lightning Network] (https://www.blink.sv/blog/what-is-the-lightning-network) membuatnya ideal untuk:
+
+
+
+- Bitcoin pemula
+- Pengeluaran dan penerimaan harian
+- Transaksi kecil hingga menengah
+- Mempelajari tentang Bitcoin
+- Bisnis yang menerima pembayaran Bitcoin
+
+
+Meskipun Blink Wallet dibuat untuk kemudahan dan kenyamanan, ada baiknya kamu pikirkan apa yang paling penting buat kamu—entah itu privasi, kontrol, atau batas transaksi. Kalau kamu sudah merasa nyaman dengan Bitcoin, kamu bisa mulai jelajahi pilihan dompet lain yang sesuai sama kebutuhan kamu.
+
+
+Blink Wallet gampang dipakai dan dibuat khusus buat pembayaran di dunia nyata. Coba aja, jelajahi fitur-fiturnya, dan bangun kepercayaan diri plus pemahaman kamu tentang Bitcoin lewat pemakaian langsung.
