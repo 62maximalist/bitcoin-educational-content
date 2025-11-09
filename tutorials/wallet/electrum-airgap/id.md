@@ -6,7 +6,7 @@ description: Langkah pertama menuju keselamatan, Cold Wallet dengan Electrum
 
 ## Cold Wallet
 
-Di tutorial ini aku bakal jelasin cara bikin perangkat penandatanganan air-gapped pertamamu—yang benar-benar terputus dari internet, tanpa perlu punya hardware wallet khusus. Kamu cuma butuh dua komputer:
+Di tutorial ini aku bakal jelasin cara bikin perangkat penandatanganan air-gapped pertamamu, yang benar-benar terputus dari internet, tanpa perlu punya hardware wallet khusus. Kamu cuma butuh dua komputer:
 
 - perangkat lama untuk selamanya dicegah agar tidak tersambung ke Internet;
 - komputer yang Anda gunakan sehari-hari.
