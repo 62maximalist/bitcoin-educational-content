@@ -14,7 +14,7 @@ Di inti penggunaan jaringan Bitcoin ada konsep kriptografi asimetris: sepasang k
 
 Dalam konteks Bitcoin, dengan menghasilkan sepasang kunci privat dan publik, kamu bisa menyimpan bitcoin dalam bentuk UTXO (Unspent Transaction Output) dan menandatangani transaksi untuk membelanjakannya.
 
-Sekarang sudah banyak alat yang bisa dipakai untuk menghasilkan kunci privat secara acak, lengkap dengan backup dalam bentuk frasa mnemonik sesuai standar BIP39. Standar ini menjelaskan bagaimana dompet menghubungkan frasa benih dengan kunci enkripsi. Biasanya frasa ini terdiri dari 12 atau 24 kata. Kata-kata tersebut harus di-backup dengan aman supaya dompet dan bitcoin bisa dipulihkan kapan saja.
+Sekarang sudah banyak alat yang bisa dipakai untuk menghasilkan kunci privat secara acak, lengkap dengan backup dalam bentuk frasa mnemonik sesuai standar BIP39. Standar ini menjelaskan bagaimana dompet menghubungkan seedphrase dengan kunci enkripsi. Biasanya frasa ini terdiri dari 12 atau 24 kata. Kata-kata tersebut harus di-backup dengan aman supaya dompet dan bitcoin bisa dipulihkan kapan saja.
 
 Di artikel ini, kita akan bahas cara menghasilkan kunci privat menggunakan Coldcard Mk4, salah satu perangkat Bitcoin paling aman dan banyak dipakai. Metode yang akan dipakai adalah lemparan dadu untuk memastikan entropi maksimum. Setelah itu, kita juga akan lihat bagaimana menggunakannya bersama Bitcoin Core secara terisolasi.
 
