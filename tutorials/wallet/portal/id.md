@@ -16,7 +16,7 @@ Saat artikel ini ditulis, Portal kompatibel dengan aplikasi Nunchuk dan Bitcoin 
 
 ## Membuka kemasan
 
-Ketika Anda menerima Portal Anda, periksa apakah kotak dan label yang menyegelnya dalam kondisi baik. Di dalamnya, Anda akan menemukan Portal Anda di dalam kantong tertutup.
+Ketika kamu menerima produk Portal, periksa apakah kotak dan label yang menyegelnya dalam kondisi baik. Di dalamnya, kamu bakal menemukan Portal di dalam kantong tertutup.
 
 Pastikan segelnya masih utuh supaya kantongnya belum dibuka. Nomor unik yang tercetak dengan huruf besar di kantong harus sama dengan nomor yang tertulis dengan warna hitam di bawah segel biru, nomor pada label kotak, dan nomor yang muncul di layar saat pertama kali kamu menyalakannya.
 
@@ -78,7 +78,7 @@ Portal kamu akan mengonfirmasi kata sandi yang kamu masukkan di Nunchuk.
 
 ![Image](assets/fr/12.webp)
 
-Sekarang kamu telah selesai mengonfigurasi Portal dan membuat frasa mnemonik Anda!
+Sekarang kamu telah selesai mengonfigurasi Portal dan membuat frasa mnemonik kamu!
 
 ![Image](assets/fr/13.webp)
 
@@ -98,7 +98,7 @@ Gunakan akun default, yaitu akun pertama di dompet (nomor 0). Nunchuk kemudian a
 
 Di Portal, konfirmasikan ekspor xpub kamu ke Nunchuk. Hal ini memungkinkan kamu mengelola dompet dari ponsel pintar, tetapi tidak bisa membelanjakan bitcoin tanpa Portal. Tekan tombol untuk mengonfirmasi.
 
-Perhatikan bahwa jalur derivasi yang ditunjukkan dalam kasus kamu akan berbeda dengan kasus saya, karena tutorial ini dilakukan di Testnet.
+Perhatikan bahwa jalur derivasi yang ditunjukkan dalam kasus kamu akan berbeda dengan kasusku, karena tutorial ini dilakukan di Testnet.
 
 ![Image](assets/fr/17.webp)
 
@@ -128,7 +128,7 @@ Pilih Portal kamu sebagai perangkat penandatanganan untuk set kunci baru ini, la
 
 ![Image](assets/fr/23.webp)
 
-Jika semuanya sudah sesuai dengan keinginan Anda, validasi kreasi tersebut.
+Jika semuanya sudah sesuai dengan keinginan kamu, validasi kreasi tersebut.
 
 ![Image](assets/fr/24.webp)
 
@@ -178,7 +178,7 @@ Klik tanda "*+*" di sebelah "*Tags*" untuk menambahkan tag ke UTXO milikumu. Ini
 
 ![Image](assets/fr/35.webp)
 
-Pilih tag yang sudah ada atau buat tag baru, lalu klik "*Save*". Anda juga bisa membuat "*collections*" untuk mengatur komponen milkmu dengan cara yang lebih terstruktur.
+Pilih tag yang sudah ada atau buat tag baru, lalu klik "*Save*". kamu juga bisa membuat "*collections*" untuk mengatur komponen milkmu dengan cara yang lebih terstruktur.
 
 ![Image](assets/fr/36.webp)
 
@@ -196,7 +196,7 @@ Pilih jumlah yang akan dikirim, lalu klik "*Lanjutkan*".
 
 ![Image](assets/fr/39.webp)
 
-Tambahkan "*catatan*" pada transaksi Anda di masa mendatang untuk mengingatkan kamu tentang tujuannya.
+Tambahkan "*catatan*" pada transaksi di masa mendatang untuk mengingatkan kamu tentang tujuannya.
 
 ![Image](assets/fr/40.webp)
 
@@ -204,7 +204,7 @@ Kemudian masukkan alamat penerima di bidang yang tersedia. Kamu juga dapat memin
 
 ![Image](assets/fr/41.webp)
 
-Periksa detail transaksi Anda, lalu klik tombol "*Tanda Tangan*" di samping Portalmu, dan masukkan kata sandimu.
+Periksa detail transaksi kamu, lalu klik tombol "*Tanda Tangan*" di samping Portalmu, dan masukkan kata sandimu.
 
 ![Image](assets/fr/42.webp)
 
