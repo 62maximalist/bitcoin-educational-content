@@ -1,17 +1,15 @@
 ---
-name: Penandatangan Benih
-description: Perangkat keras wallet yang dibuat sendiri, tanpa status, terjangkau, dan sepenuhnya memiliki celah udara
+name: Seedsigner
+description: Dompet perangkat keras yang dibuat sendiri, non-kustodian, terjangkau, dan sepenuhnya terisolasi dari jaringan (air-gapped)
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-SeedSigner adalah perangkat keras wallet Bitcoin sumber terbuka yang dapat dibuat sendiri oleh siapa saja dengan menggunakan komponen elektronik serba guna yang murah. Tidak seperti produk komersial seperti Ledger, Coldcard atau Trezor, ini bukanlah perangkat siap pakai yang diproduksi oleh perusahaan: ini adalah proyek komunitas yang memungkinkan siapa pun untuk membuat perangkat mereka sendiri, mengendalikan setiap langkah.
+SeedSigner adalah hardware wallet Bitcoin sumber terbuka yang bisa kamu rakit sendiri dengan komponen elektronik umum yang murah. Berbeda dengan produk komersial seperti Ledger, Coldcard, atau Trezor, ini bukan perangkat siap pakai dari pabrik. Ini adalah proyek komunitas yang memungkinkan siapa pun membuat perangkatnya sendiri dan mengendalikan setiap langkahnya.
 
-
-
-SeedSigner dirancang untuk menjadi 100% ***air-gapped***: tidak pernah terhubung ke Internet, tidak memiliki Wi-Fi atau Bluetooth (dalam kasus Raspberry Pi Zero v1.3) dan tidak pernah terhubung ke komputer untuk bertukar data. Komunikasi secara eksklusif melalui sistem pertukaran kode QR. Secara konkret, perangkat lunak manajemen portofolio Anda (seperti Sparrow Wallet) menampilkan transaksi yang akan ditandatangani dalam bentuk kode QR; Anda memindainya dengan kamera SeedSigner, kemudian perangkat menandatangani transaksi menggunakan kunci pribadi Anda yang disimpan sementara di RAM-nya. Terakhir, alat ini menghasilkan kode QR yang berisi transaksi yang telah ditandatangani, yang Anda pindai dengan perangkat lunak Anda untuk mengirimkannya ke jaringan Bitcoin.
+SeedSigner dirancang untuk benar-benar air-gapped. Perangkat ini tidak pernah terhubung ke internet, tidak punya Wi-Fi atau Bluetooth (jika menggunakan Raspberry Pi Zero v1.3), dan tidak perlu disambungkan ke komputer untuk bertukar data. Semua komunikasi dilakukan dengan sistem pertukaran kode QR. Secara praktis, software wallet kamu (misalnya Sparrow Wallet) akan menampilkan transaksi yang ingin ditandatangani dalam bentuk kode QR. Kamu cukup memindai kode itu dengan kamera SeedSigner, lalu perangkat akan menandatangani transaksi tersebut menggunakan private key kamu yang hanya disimpan sementara di RAM. Setelah itu, perangkat menghasilkan kode QR yang berisi transaksi yang sudah ditandatangani, dan kamu memindainya kembali dengan software wallet kamu untuk mengirimkannya ke jaringan Bitcoin.
 
 
 
@@ -19,38 +17,28 @@ SeedSigner dirancang untuk menjadi 100% ***air-gapped***: tidak pernah terhubung
 
 
 
-SeedSigner juga tidak memiliki status. Dengan kata lain, ia tidak menyimpan seed atau kunci pribadi Anda secara permanen, tidak seperti dompet perangkat keras lainnya. Setiap kali Anda melakukan reboot, memorinya benar-benar kosong, kecuali jika Anda mengonfigurasi perangkat untuk menyimpan pengaturan Anda pada kartu microSD. Oleh karena itu, Anda harus memasukkan kembali seed Anda setiap kali Anda menggunakannya, metode yang paling praktis adalah menyimpannya dalam bentuk kode QR, yang akan dipindai pada saat memulai menggunakan kamera SeedSigner. Mode operasi ini sangat mengurangi permukaan serangan: bahkan jika pencuri mencuri perangkat Anda, dia tidak akan menemukan informasi apa pun di dalamnya, karena selalu kosong secara default.
+SeedSigner juga tidak memiliki status. Artinya, perangkat ini tidak menyimpan seed atau private key kamu secara permanen, berbeda dengan kebanyakan hardware wallet lainnya. Setiap kali kamu melakukan reboot, memorinya kembali kosong, kecuali jika kamu memilih untuk menyimpan pengaturan di kartu microSD. Jadi kamu harus memasukkan seed setiap kali akan menggunakannya, dan cara paling praktis adalah menyimpannya dalam bentuk kode QR yang nanti dipindai saat perangkat dinyalakan melalui kamera SeedSigner. Cara kerja seperti ini sangat mengurangi permukaan serangan. Bahkan jika seseorang mencuri perangkatmu, dia tidak akan menemukan apa pun di dalamnya karena perangkat selalu kosong secara default.
 
-
-
-Pilihan lain untuk menyimpan seed Anda dan menggunakannya dengan SeedSigner adalah dengan menggunakan kartu pintar *SeedKeeper* bersama dengan pembaca yang kompatibel. Hal ini memberikan Anda sebuah *Secure Element* yang sangat kuat untuk menyimpan seed Anda, sambil menggunakan layar SeedSigner untuk menandatangani transaksi. Tetapi konfigurasi khusus ini adalah subjek dari tutorial khusus lainnya. Di sini, kita akan berkonsentrasi pada penggunaan dasar SeedSigner:
+Ada juga opsi lain untuk menyimpan seed kamu dan tetap menggunakannya dengan SeedSigner, yaitu dengan memakai kartu pintar SeedKeeper bersama pembaca yang kompatibel. Ini memberi kamu Secure Element yang sangat kuat untuk menyimpan seed, sambil layar SeedSigner tetap digunakan untuk menandatangani transaksi. Namun, konfigurasi yang ini merupakan topik dari tutorial lain. Di sini, kita akan fokus pada penggunaan dasar SeedSigner.
 
 
 
 https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-Proyek SeedSigner menempati tempat yang penting dalam ekosistem Bitcoin, karena menawarkan kepada semua orang, di mana pun di dunia, kemungkinan untuk mendapatkan keuntungan dari keamanan tingkat lanjut untuk melindungi bitcoin mereka. Keuntungan utamanya terletak pada aksesibilitasnya: perangkat keras yang dibutuhkan dapat dibeli dengan harga kurang dari $50. Terlebih lagi, ini memungkinkan orang-orang yang tinggal di negara-negara terbatas untuk membangun perangkat keras wallet mereka sendiri dari komponen komputer standar, yang mudah ditemukan dan tidak terlalu tunduk pada batasan peraturan.
+Proyek SeedSigner punya peran penting dalam ekosistem Bitcoin, karena memberi siapa pun, di mana pun, kesempatan untuk mendapatkan keamanan tingkat lanjut untuk melindungi bitcoin mereka. Keunggulan utamanya ada pada aksesibilitas: perangkat keras yang dibutuhkan bisa dibeli dengan harga kurang dari $50. Selain itu, ini memungkinkan orang yang tinggal di negara dengan pembatasan untuk merakit hardware wallet mereka sendiri dari komponen komputer standar yang mudah ditemukan dan tidak terlalu terpengaruh peraturan.
 
-
-
-Tetapi bahkan di luar konteks khusus ini, SeedSigner dapat menjadi opsi yang menarik untuk Anda: ini adalah sumber terbuka, bekerja tanpa batas negara dan tanpa celah udara, dan mengurangi vektor serangan yang terkait dengan rantai pasokan perangkat keras wallet Anda.
-
-
+Namun bahkan di luar konteks seperti itu, SeedSigner tetap bisa jadi opsi menarik buat kamu. Perangkat ini sumber terbuka, bekerja tanpa bergantung pada negara, sepenuhnya air-gapped, dan mengurangi vektor serangan yang terkait dengan rantai pasokan hardware wallet kamu.
 
 ## 1. Peralatan yang diperlukan
 
 
 
-Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
-
-
-
-
+Untuk membuat SeedSigner, kamu memerlukan komponen-komponen berikut ini:
 
 - Raspberry Pi Nol
     - Versi 1.3 direkomendasikan, karena tidak memiliki Wi-Fi maupun Bluetooth, sehingga memastikan isolasi yang lengkap.
- - Versi W dan v2 juga kompatibel, tetapi menyertakan chip Wi-Fi/Bluetooth. Oleh karena itu, disarankan untuk menonaktifkannya secara fisik dengan melepaskan modul radio dari kartu. Pengoperasiannya relatif sederhana, tetapi membutuhkan ketelitian (tang halus cukup untuk Zero W, sedangkan untuk v2 diperlukan pena panas untuk melepaskan pelat logam yang menyembunyikan modul). Saya tidak akan membahas secara rinci dalam tutorial ini, tetapi Anda akan menemukan semua instruksi dalam dokumen ini: *[Menonaktifkan WiFi/Bluetooth dengan perangkat keras](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
- - Harap diperhatikan: beberapa model Raspberry Pi Zero dijual tanpa pin GPIO yang sudah disolder. Anda bisa membeli versi dengan pin terintegrasi secara langsung (solusi paling sederhana), atau membeli pin secara terpisah dan menyoldernya sendiri (solusi yang lebih kompleks).
+ - Versi W dan v2 juga kompatibel, tetapi menyertakan chip Wi-Fi/Bluetooth. Oleh karena itu, disarankan untuk menonaktifkannya secara fisik dengan melepaskan modul radio dari kartu. Pengoperasiannya relatif sederhana, tetapi membutuhkan ketelitian (tang halus cukup untuk Zero W, sedangkan untuk v2 diperlukan pena panas untuk melepaskan pelat logam yang menyembunyikan modul). Aku tidak akan membahas secara rinci dalam tutorial ini, tetapi kamu akan menemukan semua instruksi dalam dokumen ini: *[Menonaktifkan WiFi/Bluetooth dengan perangkat keras](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
+ - Harap diperhatikan: beberapa model Raspberry Pi Zero dijual tanpa pin GPIO yang sudah disolder. Kamu bisa membeli versi dengan pin terintegrasi secara langsung (solusi paling sederhana), atau membeli pin secara terpisah dan menyoldernya sendiri (solusi yang lebih kompleks).
  - Jangan lupa menyertakan catu daya micro-USB.
 
 
@@ -74,7 +62,7 @@ Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
 
 
 - Kamera yang kompatibel dengan Raspberry Pi Zero**
-    - Opsi 1: kamera standar dengan alas emas lebar (periksa kompatibilitasnya dengan housing Anda).
+    - Opsi 1: kamera standar dengan alas emas lebar (periksa kompatibilitasnya dengan housing kamu).
     - Opsi 2: kamera "*Zero*" yang lebih ringkas, yang didesain khusus untuk Pi Zero.
 
 
@@ -103,7 +91,7 @@ Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
 
 
 
-Anda bisa membeli komponen-komponen ini secara terpisah atau, untuk lebih mudahnya, pilihlah paket yang sudah jadi yang sudah termasuk semua perangkat keras yang diperlukan. Secara pribadi, saya memesan paket saya [di situs Perancis ini](https://bitcoinbazar.fr/), tetapi Anda juga akan menemukan daftar vendor untuk setiap wilayah di dunia pada [halaman perangkat keras proyek SeedSigner](https://seedsigner.com/hardware/). Jika Anda lebih suka membeli komponen secara terpisah, komponen-komponen tersebut tersedia di platform e-commerce utama atau di toko-toko spesialis.
+Kamu bisa membeli komponen-komponen ini secara terpisah atau, untuk lebih mudahnya, pilihlah paket yang sudah jadi yang sudah termasuk semua perangkat keras yang diperlukan. Secara pribadi, aku memesan paket [di situs Perancis ini](https://bitcoinbazar.fr/), tetapi kamu juga akan menemukan daftar vendor untuk setiap wilayah di dunia pada [halaman perangkat keras proyek SeedSigner](https://seedsigner.com/hardware/). Kalau kamu lebih suka membeli komponen secara terpisah, komponen-komponen tersebut tersedia di platform e-commerce utama atau di toko-toko spesialis.
 
 
 
@@ -111,7 +99,7 @@ Anda bisa membeli komponen-komponen ini secara terpisah atau, untuk lebih mudahn
 
 
 
-Setelah Anda menyiapkan perangkat keras, Anda perlu menyiapkan kartu microSD dengan menginstal sistem SeedSigner di dalamnya. Untuk melakukan ini, buka komputer pribadi Anda sehari-hari, dan colokkan microSD yang ditujukan untuk SeedSigner.
+Setelah kamu menyiapkan perangkat keras, kamu perlu menyiapkan kartu microSD dengan menginstal sistem SeedSigner di dalamnya. Untuk melakukannya, buka komputer yang biasa kamu pakai sehari-hari, lalu colokkan microSD yang akan digunakan untuk SeedSigner.
 
 
 
@@ -124,7 +112,7 @@ Buka [repositori GitHub resmi proyek](https://github.com/SeedSigner/seedsigner/r
 
 
 
-- Gambar `.img` yang sesuai dengan model Pi Anda.
+- Gambar `.img` yang sesuai dengan model Pi yang kamu punya.
 - File `.sha256.txt`.
 - File `.sha256.txt.sig`.
 
@@ -156,7 +144,7 @@ gpg --fetch-keys https://keybase.io/seedsigner/pgp_keys.asc
 
 
 
-Terminal akan memberitahukan Anda bahwa sebuah kunci telah diimpor atau diperbarui. Selanjutnya, jalankan perintah verifikasi pada file tanda tangan (ingatlah untuk memodifikasi perintah sesuai dengan versi Anda, di sini `0.8.6.`):
+Terminal akan memberi tahu kamu bahwa sebuah key telah diimpor atau diperbarui. Setelah itu, jalankan perintah untuk memverifikasi file tanda tangan tersebut. Ingat untuk menyesuaikan perintah dengan versimu sendiri, di sini contohnya `0.8.6`.
 
 
 
