@@ -5,31 +5,31 @@ description: Memasang Bitcoin Core di Mac atau Windows
 
 ![cover](assets/cover.webp)
 
-Memasang Bitcoin Core di komputer biasa bisa dilakukan, namun tidak ideal. Jika Anda tidak keberatan meninggalkan komputer Anda menyala 24/7, maka ini akan berfungsi dengan baik. Jika Anda perlu mematikan komputer, akan terasa menjengkelkan menunggu perangkat lunak untuk sinkron setiap kali Anda menyalakannya kembali.
+Memasang Bitcoin Core di komputer biasa sebenarnya bisa dilakukan, tapi kurang ideal. Kalau kamu nggak keberatan membiarkan komputermu menyala 24/7, cara ini akan berjalan dengan baik. Tapi kalau kamu perlu mematikannya, kamu mungkin bakal merasa kesal karena harus menunggu proses sinkronisasi setiap kali menyalakan perangkat lagi.
 
-Instruksi ini untuk Pengguna Mac atau Windows. Pengguna Linux kemungkinan besar tidak memerlukan bantuan saya, namun instruksi untuk Linux sangat mirip dengan Mac.
+Panduan ini ditujukan untuk pengguna Mac atau Windows. Pengguna Linux kemungkinan besar sudah tahu cara melakukannya sendiri, tapi instruksinya kurang lebih mirip dengan yang ada di Mac.
 
 ## Mulai Bersih
 
-Idealnya, Anda ingin menggunakan komputer yang bersih, satu tanpa malware. Bahkan jika Anda menggunakan dompet perangkat keras, malware dapat menipu Anda keluar dari koin Anda.
+Idealnya, kamu perlu menggunakan komputer yang bersih, bebas dari malware. Bahkan kalau kamu pakai hardware wallet, malware tetap bisa menipu kamu dan membuatmu kehilangan bitcoin.
 
-Anda bisa menghapus bersih komputer lama, dan menggunakannya sebagai komputer Bitcoin yang didedikasikan, atau membeli komputer/laptop yang didedikasikan.
+Kamu bisa menghapus semua data di komputer lama dan menjadikannya komputer khusus untuk Bitcoin, atau beli komputer/laptop baru yang memang didedikasikan untuk itu.
 
 ## Hard Drive
 
-Bitcoin Core akan mengambil sekitar 400 gigabyte data di drive Anda, dan akan terus bertambah. Anda dapat menggunakan drive internal Anda, tetapi Anda juga dapat menambahkan hard drive eksternal. Saya akan menjelaskan kedua opsi tersebut. Idealnya, Anda harus menggunakan solid-state drive. Jika Anda memiliki komputer lama, kemungkinan besar tidak memiliki salah satu dari ini secara internal. Cukup beli SSD eksternal 1 atau 2 terabyte dan gunakan itu. Drive reguler mungkin akan bekerja, tetapi Anda mungkin akan mengalami masalah dan akan jauh lebih lambat.
+Bitcoin Core akan memakan sekitar 400 gigabyte ruang di drive kamu, dan ukurannya akan terus bertambah seiring waktu. Kamu bisa memakai drive internal, tapi bisa juga menambahkan hard drive eksternal. Aku akan jelaskan dua opsi itu.
+Idealnya, kamu pakai solid-state drive (SSD). Kalau komputermu tergolong lama, kemungkinan besar belum punya SSD internal. Cukup beli SSD eksternal berukuran 1 atau 2 terabyte dan gunakan itu. Drive biasa memang bisa dipakai, tapi kamu mungkin akan menghadapi berbagai masalah dan kecepatannya akan jauh lebih lambat.
 
 ![image](assets/fr/01.webp)
 
 ## Unduh Bitcoin Core
 
-Pergi ke bitcoin.org (pastikan Anda tidak pergi ke bitcoin.com, yang merupakan situs shitcoin milik Roger Ver, menipu orang untuk membeli Bitcoin Cash alih-alih Bitcoin)
-
-Setelah di sana, secara aneh tidak jelas di mana mendapatkan perangkat lunaknya. Pergi ke menu sumber daya dan klik "Bitcoin Core", seperti ditunjukkan di bawah ini:
+Kunjungi situs bitcoin.org (**pastikan kamu tidak pergi ke bitcoin.com**, itu situs shitcoin milik Roger Ver yang menipu orang supaya membeli Bitcoin Cash alih-alih Bitcoin).
+Setelah kamu sampai di sana, agak aneh karena letak unduhan perangkat lunaknya tidak langsung terlihat jelas. Buka menu Resources, lalu klik Bitcoin Core, seperti yang ditunjukkan pada gambar di bawah ini:
 
 ![image](assets/fr/02.webp)
 
-Ini akan membawa Anda ke halaman unduhan:
+Ini akan membawamu ke halaman unduhan:
 
 ![image](assets/fr/03.webp)
 
@@ -37,7 +37,7 @@ Klik tombol oranye Unduh Bitcoin Core:
 
 ![image](assets/fr/04.webp)
 
-Ada beberapa opsi untuk dipilih, tergantung pada komputer Anda. Dua pertama relevan dengan panduan ini; pilih Windows atau Mac di bilah kiri. Ini akan mulai mengunduh setelah Anda mengkliknya, kemungkinan besar ke direktori Unduhan Anda.
+Ada beberapa opsi yang bisa kamu pilih tergantung pada jenis komputermu. Dua opsi pertama yang relevan untuk panduan ini adalah Windows dan Mac. Pilih salah satu dari bilah sebelah kiri. Setelah kamu mengkliknya, proses unduhan akan dimulai secara otomatis, biasanya tersimpan di folder Downloads.
 
 ## Verifikasi unduhan (bagian 1)
 
