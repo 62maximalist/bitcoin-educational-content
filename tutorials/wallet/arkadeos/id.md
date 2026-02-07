@@ -20,7 +20,7 @@ Tutorial ini akan memandu kamu memasuki dunia Arkade. Kita akan menjelajahi cara
 
 
 
-Sebelum mendalami penggunaan Arkade, penting untuk memahami konsep utama protokol Ark yang menjadi penggeraknya. Ark bukanlah sebuah blockchain terpisah, melainkan sebuah mekanisme koordinasi cerdas yang berjalan di atas Bitcoin.
+Sebelum kita mendalami penggunaan Arkade, penting untuk memahami konsep utama protokol Ark yang menjadi penggeraknya. Ark bukanlah sebuah blockchain terpisah, melainkan sebuah mekanisme koordinasi cerdas yang berjalan di atas Bitcoin.
 
 
 
