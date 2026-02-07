@@ -8,7 +8,7 @@ description: Portofolio Bitcoin yang paling sederhana.
 
 
 
-Pengalaman pengguna adalah salah satu faktor yang menentukan ketika memulai menggunakan Wallet. Dalam tutorial ini, kami akan memperkenalkan Anda pada Wallet yang menjadikan pengalaman penggunanya sebagai faktor penentu: Blitz Wallet menawarkan kepada Anda dompet Bitcoin yang paling sederhana dan salah satu dompet Bitcoin terlengkap yang dapat Anda temukan.
+Pengalaman pengguna adalah salah satu faktor yang menentukan ketika memulai menggunakan Wallet. Dalam tutorial ini, aku akan memperkenalkan kamu pada Wallet yang menjadikan pengalaman penggunanya sebagai faktor penentu: Blitz Wallet menawarkan dompet Bitcoin yang paling sederhana sekaligus salah satu dompet Bitcoin terlengkap yang bisa kamu temukan.
 
 
 
@@ -16,7 +16,7 @@ Pengalaman pengguna adalah salah satu faktor yang menentukan ketika memulai meng
 
 
 
-Blitz Wallet adalah Bitcoin self-custody Wallet yang kode sumbernya tersedia (Open Source), yang berfokus pada kedaulatan Anda dan pengalaman pengguna yang membuatnya mudah untuk dipahami.
+Blitz Wallet adalah dompet Bitcoin self-custody yang kode sumbernya tersedia (Open Source), berfokus pada kedaulatan kamu dan pengalaman pengguna yang membuatnya mudah dipahami.
 
 
 
@@ -24,7 +24,7 @@ Blitz Wallet adalah Bitcoin self-custody Wallet yang kode sumbernya tersedia (Op
 
 
 
-⚠️**PENTING**: Mengunduh Bitcoin Wallet di platform resmi penting untuk memverifikasi keaslian aplikasi dan, lebih jauh lagi, memperkuat keamanan dana Anda.
+⚠️**PENTING**: Mengunduh Bitcoin Wallet di platform resmi penting untuk memverifikasi keaslian aplikasi dan, lebih jauh lagi, memperkuat keamanan dana kamu.
 
 
 
@@ -36,26 +36,27 @@ Dalam tutorial ini, kita akan mendasarkan diri pada versi Android Blitz Wallet, 
 
 
 
-Karena Blitz Wallet adalah portofolio mandiri dari Bitcoin, Anda dapat memilih untuk membuat portofolio baru atau mengimpor kata pemulihan 12/24 dari portofolio yang sudah Anda miliki.
+Karena Blitz Wallet adalah portofolio mandiri Bitcoin, kamu dapat memilih untuk membuat portofolio baru atau mengimpor seedphrase 12/24 dari portofolio yang sudah kamu miliki.
 
 
 
-Di sini, kita mulai dengan pembuatan portofolio baru. Lihat di bawah ini untuk rekomendasi kami tentang cara mencadangkan frasa cadangan Anda.
+Di sini, kita mulai dengan pembuatan portofolio baru. Lihat di bawah ini untuk rekomendasi kami tentang cara mencadangkan seedphrase kamu.
+
 
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-❗**PENTING**: Kata-kata pemulihan 12/24 ini sangat penting untuk mengakses bitcoin Anda. Jika Anda kehilangannya, Anda tidak akan lagi diizinkan untuk membelanjakan bitcoin Anda.
+❗**PENTING**: Kata-kata pemulihan 12/24 ini sangat penting untuk mengakses bitcoin kamu. Jika kamu kehilangannya, kamu tidak akan lagi diizinkan untuk membelanjakan bitcoin kamu.
 
 
 
-Bukan kunci Anda, bukan bitcoin Anda.
+Bukan kunci kamu, bukan bitcoin kamu.
 
 
 
 
-Kemudian buat kode PIN untuk mengautentikasi akses ke Wallet Anda.
+Kemudian buat kode PIN untuk mengautentikasi akses ke Wallet kamu.
 
 
 
@@ -71,7 +72,7 @@ Trading dengan Blitz lebih intuitif daripada kebanyakan dompet Bitcoin lainnya.
 
 
 
-Pada menu Wallet, Anda memiliki Interface minimalis yang hanya berfokus pada aksi utama:
+Pada menu Wallet, kamu memiliki Interface minimalis yang hanya berfokus pada aksi utama:
 
 
 
@@ -79,7 +80,7 @@ Pada menu Wallet, Anda memiliki Interface minimalis yang hanya berfokus pada aks
 
 
 
-Untuk menerima bitcoin di Blitz Wallet Anda, klik ikon "Panah Bawah", masukkan jumlah satoshi yang ingin Anda terima dan Wallet akan membuat Invoice untuk Anda bagikan kepada pengirim.
+Untuk menerima bitcoin di Blitz Wallet, klik ikon "Panah Bawah", masukkan jumlah satoshi yang ingin kamu terima dan Wallet akan membuat Invoice untuk Akamu bagikan kepada pengirim.
 
 
 
@@ -93,7 +94,7 @@ Salah satu fitur khusus Blitz Wallet adalah mendukung jaringan dan saluran yang 
 
 
 
-- **Lightning Network**: Salah satu overlay Bitcoin yang memungkinkan Anda melakukan transaksi mikro secara instan.
+- **Lightning Network**: Salah satu overlay Bitcoin yang memungkinkan kamu melakukan transaksi mikro secara instan.
 
 
 
@@ -111,7 +112,7 @@ Salah satu fitur khusus Blitz Wallet adalah mendukung jaringan dan saluran yang 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
-Secara default, semua transaksi Anda akan menggunakan Liquid Network, tetapi Blitz memungkinkan Anda menentukan jaringan tempat Anda ingin menerima satoshi dengan mengeklik tombol **Pilih format**.
+Secara default, semua transaksi kamu akan menggunakan Liquid Network, tetapi Blitz memungkinkan untuk menentukan jaringan tempat kamu ingin menerima satoshi dengan mengeklik tombol **Pilih format**.
 
 
 
@@ -123,15 +124,15 @@ Secara default, semua transaksi Anda akan menggunakan Liquid Network, tetapi Bli
 
 
 
-Blitz Wallet memudahkan Anda untuk mengirim bitcoin dari Wallet.
+Blitz Wallet memudahkan kamu untuk mengirim bitcoin dari Wallet.
 
 
 
-Di menu **Kontak**, Anda dapat mendaftarkan nama pengguna Blitz atau URL Lightning yang paling sering Anda gunakan untuk berinteraksi.
+Di menu **Kontak**, kamu dapat mendaftarkan nama pengguna Blitz atau URL Lightning yang paling sering kamu gunakan untuk berinteraksi.
 
 
 
-Ini berarti, Anda bisa mengirim satoshi ke alamat-alamat ini dengan mudah, melewati pemindaian dan tahap entri Address secara manual.
+Ini berarti, kamu bisa mengirim satoshi ke alamat-alamat ini dengan mudah, melewati pemindaian dan tahap entri Address secara manual.
 
 
 
@@ -143,7 +144,7 @@ Ini berarti, Anda bisa mengirim satoshi ke alamat-alamat ini dengan mudah, melew
 
 
 
-Selain metode klasik untuk mengirim Bitcoin (kode QR, entri manual), dengan menggunakan kontak yang sudah didaftarkan sebelumnya di Wallet Anda, Anda dapat mengirim Satss ke penerima hanya dalam tiga klik.
+Selain metode klasik untuk mengirim Bitcoin (kode QR, entri manual), dengan menggunakan kontak yang sudah didaftarkan sebelumnya di Wallet, kamu dapat mengirim Satss ke penerima hanya dalam tiga klik.
 
 
 
@@ -163,7 +164,7 @@ Jumlah minimum untuk mengirim Bitcoin dalam Blitz Wallet saat ini adalah 1.000 s
 
 
 
-Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana Anda bisa menggunakan bitcoin untuk membayar layanan digital.
+Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana kamu bisa menggunakan bitcoin untuk membayar layanan digital.
 
 
 
@@ -179,7 +180,7 @@ Selain operasi transfer Bitcoin, Blitz Wallet menawarkan sebuah toko di mana And
 
 
 
-- **Kirim pesan teks ke mana saja di seluruh dunia**: Di toko Blitz, Anda memiliki akses ke layanan GSM yang memungkinkan Anda mengirim pesan teks secara anonim ke mana saja di seluruh dunia, dengan penagihan langsung di Bitcoin.
+- **Kirim pesan teks ke mana saja di seluruh dunia**: Di toko Blitz, kamu memiliki akses ke layanan GSM yang memungkinkan kamu mengirim pesan teks secara anonim ke mana saja di seluruh dunia, dengan penagihan langsung di Bitcoin.
 
 
 
@@ -209,11 +210,11 @@ Di balik kesederhanaan pengoperasian Blitz Wallet, terdapat banyak sekali kekuat
 
 
 
-Seperti yang telah kami tunjukkan sebelumnya, semua bitcoin yang Anda terima akan menjadi Liquid Network.
+Seperti yang telah kami tunjukkan sebelumnya, semua bitcoin yang kamu terima akan menjadi Liquid Network.
 
 
 
-Blitz menggunakan microexchanges Liquid Network untuk menampilkan saldo Anda di Satoshi ketika Anda memiliki saldo kurang dari 500.000 satoshi.
+Blitz menggunakan microexchanges Liquid Network untuk menampilkan saldo kamu di Satoshi ketika kamu memiliki saldo kurang dari 500.000 satoshi.
 
 
 
@@ -223,7 +224,7 @@ Pendekatan ini dibenarkan oleh keinginan untuk memfasilitasi pengalaman awal dan
 
 https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-Anda dapat melihat rincian saldo Anda di menu **Pengaturan>Info Saldo**.
+Kamu dapat melihat rincian saldo di menu **Pengaturan>Info Saldo**.
 
 
 
@@ -231,7 +232,7 @@ Anda dapat melihat rincian saldo Anda di menu **Pengaturan>Info Saldo**.
 
 
 
-Namun, Blitz Wallet memberi Anda fleksibilitas untuk mengaktifkan mode Lightning, yang secara otomatis akan membuka saluran pembayaran untuk Anda setelah Anda mencapai saldo 500.000 satoshi.
+Namun, Blitz Wallet memberi kamu fleksibilitas untuk mengaktifkan mode Lightning, yang secara otomatis akan membuka saluran pembayaran untuk kamu setelah kamu mencapai saldo 500.000 satoshi.
 
 
 
@@ -243,7 +244,7 @@ Untuk mengaktifkan mode Lightning, buka **Pengaturan**, lalu di bagian **Pengatu
 
 
 
-Dengan mengaktifkan mode Lightning, setelah syarat utama terpenuhi (saldo 500.000 satoshi atau 0,005 Bitcoin), Anda akan dapat melakukan transaksi di Lightning Network dan tidak perlu lagi melalui Liquid Network BlockStream.
+Dengan mengaktifkan mode Lightning, setelah syarat utama terpenuhi (saldo 500.000 satoshi atau 0,005 Bitcoin), kamu akan dapat melakukan transaksi di Lightning Network dan tidak perlu lagi melalui Liquid Network BlockStream.
 
 
 
@@ -253,11 +254,11 @@ Dengan mengaktifkan mode Lightning, setelah syarat utama terpenuhi (saldo 500.00
 
 
 
-Integrasi pembayaran Bitcoin di toko-toko masih dalam tahap percobaan dengan Blitz Wallet. Kami sarankan Anda menggunakannya dengan hemat.
+Integrasi pembayaran Bitcoin di toko-toko masih dalam tahap percobaan dengan Blitz Wallet. Kami sarankan kamu menggunakannya dengan hemat.
 
 
 
-Di menu **Pengaturan>Poin-of-sale**, Anda dapat mengatur pengenal unik yang terkait dengan toko Anda dan mata uang fiat lokal yang Anda inginkan untuk menerima pembayaran.
+Di menu **Pengaturan>Poin-of-sale**, kamu dapat mengatur pengenal unik yang terkait dengan toko kamu dan mata uang fiat lokal yang kamu inginkan untuk menerima pembayaran.
 
 
 
@@ -265,7 +266,7 @@ Di menu **Pengaturan>Poin-of-sale**, Anda dapat mengatur pengenal unik yang terk
 
 
 
-Jika tutorial ini membantu Anda memahami Blitz, kami yakin Anda akan menikmati tutorial Muun Wallet. Temukan Muun, Wallet sederhana yang sama kuatnya dengan Bitcoin.
+Jika tutorial ini membantu kamu memahami Blitz, aku yakin kamu akan menikmati tutorial Muun Wallet. Temukan Muun, dompet sederhana yang sama kuatnya dengan Bitcoin.
 
 
 
