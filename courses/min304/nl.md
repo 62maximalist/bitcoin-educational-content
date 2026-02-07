@@ -1,11 +1,11 @@
 ---
 name: Verwarm je huis terwijl je bitcoins mint
-goal: Hergebruik een Antminer S9 als Attakai, een doe-het-zelfverwarming voor thuismining, met begeleide installatie.
+goal: Hergebruik een Antminer S9 als DIY-verwarming voor thuismining, met begeleide installatie.
 objectives: 
 
   - Begrijp de basisprincipes van Bitcoin-mining
   - Veilig een gebruikte Antminer S9 aanschaffen
-  - Bouw de Attakai DIY-verwarming
+  - Bouw de DIY-verwarming voor thuismining
   - BraiinsOS+ configureren en lid worden van een miningpool
 
 ---
@@ -41,13 +41,13 @@ Stapsgewijze handleidingen leiden je door het hele proces zodat je Attakai thuis
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Welkom bij MIN 302, de cursus over het Attakai-project. Ajelex, Jim en Rogzy begeleiden je door de essentiële elementen van Bitcoin-mining en begeleiden je vervolgens stap voor stap bij het bouwen van je Attakai, een doe-het-zelf thuisverwarmingssysteem gemaakt van een gebruikte S9. We hopen dat je van de cursus geniet en aan het thuismining-avontuur begint!
+Welkom bij MIN 304, de cursus over het Attakai-project. Ajelex, Jim en Rogzy begeleiden je door de essentiële elementen van Bitcoin-mining en begeleiden je vervolgens stap voor stap bij het bouwen van je Attakai, een doe-het-zelf thuisverwarmingssysteem gemaakt van een gebruikte S9. We hopen dat je van de cursus geniet en aan het thuismining-avontuur begint!
 
 
 Deze training neemt je mee naar het hart van de Bitcoin Mining industrie en biedt zowel theoretische als praktische kennis. Of je nu een beginner bent of al bekend met het onderwerp, deze cursus helpt je de economische en technische aspecten van Mining te begrijpen, terwijl je een praktisch project uitvoert om een ASIC te hergebruiken voor thuisverwarming.
 
 
-**Deel 2: Alles over Mining**
+**Sectie 2: Mining, de werking, de industrie en de uitdagingen**
 
 In dit deel geven we een uitgebreid inzicht in Bitcoin Mining. We behandelen de technische werking van Mining, de rol ervan in het Bitcoin protocol en de economische en geopolitieke implicaties. Je zult ook de complexe relatie tussen de prijs van Bitcoin en Hashrate onderzoeken, evenals kwesties met betrekking tot soevereiniteit en regulering in de industrie.
 
@@ -57,17 +57,17 @@ In dit deel geven we een uitgebreid inzicht in Bitcoin Mining. We behandelen de 
 Vervolgens duiken we in de praktische toepassing met het concept van Attakai, dat tot doel heeft thuis Mining te democratiseren door gebruikte S9 miners om te vormen tot thuisverwarmingsapparaten. Je leert hoe je een gebruikte ASIC koopt en aanpast, terwijl je de benodigde apparatuur voor hardware-aanpassingen klaarmaakt.
 
 
-**Deel 4: Attakai - De software van een Antminer S9 wijzigen**
+**Sectie 4: Aanpassing van de software van een Antminer S9**
 
 Hier leer je hoe je de Antminer S9 configureert voor thuisgebruik. We begeleiden je bij het instellen van een Wi-Fi/Ethernet bridge, het resetten van je apparaat, het installeren van BraiinsOS+ en het optimaliseren voor Mining.
 
 
-**Deel 5: Attakai - Ventilatoraanpassingen**
+**Sectie 5: Aanpassing van de ventilatoren**
 
 Om uw Antminer S9 te optimaliseren voor gebruik als bijverwarming, leert deze sectie u hoe u de Supply ventilatoren en de hoofdventilatoren kunt vervangen. Deze aanpassingen zijn essentieel om het geluid te verminderen en de thermische efficiëntie van het apparaat te verbeteren.
 
 
-**Deel 6: Attakai - Configuratie**
+**Sectie 6: Instelling van de DIY-verwarming**
 
 Tot slot leer je hoe je je kunt aansluiten bij een Mining pool en hoe je de prestaties van je Antminer S9 kunt optimaliseren. Je zult ontdekken hoe je een optimale energie-efficiëntie kunt bereiken en effectief je eerste satoshi's kunt delven.
 
@@ -76,7 +76,7 @@ Klaar om de wereld van Bitcoin Mining te ontdekken en de praktische uitdaging va
 
 
 
-# Alles wat u moet weten over Mining
+# Mining, de werking, de industrie en de uitdagingen
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
@@ -696,7 +696,7 @@ Lijst met apparatuur en links
 - [Optionele ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - De software van een Antminer S9 aanpassen
+# Wijziging van de software van een Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -895,7 +895,7 @@ Op deze eerste pagina kun je de realtime prestaties van je machine bekijken.
 ![image](assets/en/045.webp)
 
 
-# Attakai - Aanpassing ventilator
+# Wijziging van de ventilatoren
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1089,7 +1089,7 @@ En voor de finishing touch sluit je de Vonet bridge aan op de Ethernetpoort en d
 En daar heb je het, gefeliciteerd! Je hebt zojuist het gehele mechanische deel van je Miner vervangen. Je zou nu veel minder geluid moeten horen.
 
 
-# Attakai - Configuratie
+# Configuratie van DIY-verwarming
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

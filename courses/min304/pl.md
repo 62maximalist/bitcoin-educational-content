@@ -1,11 +1,11 @@
 ---
 name: Ogrzewaj swój dom podczas kopania bitcoinów
-goal: Przekształć Antminer S9 w Attakai, grzejnik DIY do domowego kopania, z prowadzoną konfiguracją.
+goal: Przekształć Antminer S9 w grzejnik DIY do domowego kopania, z przewodnikiem konfiguracji.
 objectives: 
 
   - Zrozum podstawy kopania bitcoina
   - Bezpiecznie pozyskaj używany Antminer S9
-  - Zbuduj grzejnik DIY Attakai
+  - Zbuduj grzejnik DIY do domowego kopania
   - Skonfiguruj BraiinsOS+ i dołącz do puli wydobywczej
 
 ---
@@ -41,13 +41,13 @@ Przewodniki krok po kroku przeprowadzą cię przez cały proces, abyś mógł zb
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Witamy w MIN 302, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
+Witamy w MIN 304, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
 
 
 Szkolenie to przenosi w samo serce branży Bitcoin Mining, zapewniając zarówno wiedzę teoretyczną, jak i praktyczną. Niezależnie od tego, czy jesteś początkującym, czy już zaznajomionym z tematem, ten kurs pomoże Ci zrozumieć ekonomiczne i techniczne aspekty Mining, jednocześnie realizując praktyczny projekt zmiany przeznaczenia ASIC do ogrzewania domu.
 
 
-**Sekcja 2: Wszystko o Mining**
+**Sekcja 2: Kopanie, jego działanie, przemysł i wyzwania**
 
 W tej sekcji przedstawimy kompleksowe zrozumienie Bitcoin Mining. Omówimy techniczne funkcjonowanie Mining, jego rolę w protokole Bitcoin oraz jego implikacje gospodarcze i geopolityczne. Przeanalizujemy również złożony związek między ceną Bitcoin a Hashrate, a także kwestie związane z suwerennością i regulacjami w branży.
 
@@ -57,17 +57,17 @@ W tej sekcji przedstawimy kompleksowe zrozumienie Bitcoin Mining. Omówimy techn
 Następnie zajmiemy się praktycznym zastosowaniem koncepcji Attakai, która ma na celu demokratyzację domowego Mining poprzez przekształcenie używanych koparek S9 w domowe urządzenia grzewcze. Dowiesz się, jak kupić i zmodyfikować używany ASIC, przygotowując jednocześnie niezbędny sprzęt do modyfikacji sprzętu.
 
 
-**Sekcja 4: Attakai - Modyfikowanie oprogramowania Antminer S9**
+**Sekcja 4: Modyfikacja oprogramowania Antminer S9**
 
 Tutaj dowiesz się, jak skonfigurować Antminer S9 do użytku domowego. Przeprowadzimy Cię przez konfigurację mostu Wi-Fi/Ethernet, resetowanie urządzenia, instalację BraiinsOS+ i optymalizację pod kątem Mining.
 
 
-**Sekcja 5: Attakai - Modyfikacje wentylatorów**
+**Sekcja 5: Modyfikacja wentylatorów**
 
 Aby zoptymalizować Antminer S9 do użytku jako dodatkowy grzejnik, w tej sekcji dowiesz się, jak wymienić wentylatory Supply i wentylatory główne. Modyfikacje te są niezbędne do zmniejszenia hałasu i poprawy wydajności termicznej urządzenia.
 
 
-**Sekcja 6: Attakai - Konfiguracja**
+**Sekcja 6: Ustawienie ogrzewania DIY**
 
 Na koniec dowiesz się, jak dołączyć do Mining pool i zoptymalizować wydajność Antminer S9. Dowiesz się, jak osiągnąć optymalną wydajność energetyczną i skutecznie wydobywać swoje pierwsze satoshi.
 
@@ -76,7 +76,7 @@ Gotowi na odkrycie świata Bitcoin Mining i podjęcie praktycznego wyzwania Atta
 
 
 
-# Wszystko, co musisz wiedzieć o Mining
+# Kopanie, jego działanie, przemysł i wyzwania
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
@@ -696,7 +696,7 @@ Lista sprzętu i linki
 - [Opcjonalna inteligentna wtyczka ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Modyfikowanie oprogramowania Antminer S9
+# Modyfikacja oprogramowania Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -895,7 +895,7 @@ Na tej pierwszej stronie można obserwować wydajność urządzenia w czasie rze
 ![image](assets/en/045.webp)
 
 
-# Attakai - Modyfikacja wentylatora
+# Modyfikacja wentylatorów
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1089,7 +1089,7 @@ Na koniec należy podłączyć mostek Vonet do portu Ethernet i zasilania Supply
 No i proszę, gratulacje! Właśnie wymieniłeś całą część mechaniczną Miner. Teraz powinieneś słyszeć znacznie mniej hałasu.
 
 
-# Attakai - Konfiguracja
+# Konfiguracja ogrzewania DIY
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

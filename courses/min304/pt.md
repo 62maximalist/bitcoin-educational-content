@@ -1,10 +1,10 @@
 ---
 name: Aqueça sua casa enquanto minera bitcoins
-goal: Reaproveitar um Antminer S9 como Attakai, um aquecedor DIY para mineração doméstica, com configuração guiada.
+goal: Reaproveitar um Antminer S9 como aquecedor DIY para mineração doméstica, com configuração guiada.
 objectives:
   - Compreender os fundamentos da mineração de Bitcoin
   - Obter um Antminer S9 usado com segurança
-  - Construir o aquecedor DIY Attakai
+  - Construir o aquecedor DIY para mineração doméstica
   - Configurar o BraiinsOS+ e juntar-se a um pool de mineração
 ---
 
@@ -29,29 +29,29 @@ Os guias passo a passo orientam você por todo o processo para que possa constru
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Bem-vindo ao MIN 302, o curso sobre o projeto Attakai. Ajelex, Jim e Rogzy irão guiá-lo através dos elementos essenciais da mineração de Bitcoin, depois acompanhá-lo passo a passo na construção do seu Attakai, um sistema de aquecimento doméstico DIY feito a partir de um S9 usado. Esperamos que você aproveite o curso e embarque na aventura da mineração doméstica!
+Bem-vindo ao MIN 304, o curso sobre o projeto Attakai. Ajelex, Jim e Rogzy irão guiá-lo através dos elementos essenciais da mineração de Bitcoin, depois acompanhá-lo passo a passo na construção do seu Attakai, um sistema de aquecimento doméstico DIY feito a partir de um S9 usado. Esperamos que você aproveite o curso e embarque na aventura da mineração doméstica!
 
 Este treinamento leva você ao coração da indústria de mineração de Bitcoin, oferecendo uma compreensão dos aspectos teóricos e práticos. Seja você um iniciante ou alguém já familiarizado com o assunto, este curso o ajudará a entender os desafios econômicos e técnicos relacionados à mineração, enquanto realiza um projeto prático de reutilização de um ASIC para aquecimento doméstico.
 
-**Seção 2: Tudo sobre mineração**  
+**Seção 2: A mineração, seu funcionamento, sua indústria e seus desafios**
 Nesta seção, forneceremos um entendimento aprofundado sobre a mineração de Bitcoin. Cobriremos o funcionamento técnico da mineração, seu papel no protocolo do Bitcoin e suas implicações econômicas e geopolíticas. Você também aprenderá sobre a relação complexa entre o preço do bitcoin e o hashrate, além dos desafios relacionados à soberania e regulamentação desta indústria.
 
 **Seção 3: Home mining e reutilização de calor**  
 A seguir, vamos explorar a aplicação prática com o conceito de Attakai, que visa democratizar o home mining transformando mineradores S9 usados em dispositivos de aquecimento doméstico. Você aprenderá a comprar e modificar um ASIC usado, preparando o equipamento necessário para as modificações de hardware.
 
-**Seção 4: Attakai - Modificação do software de um Antminer S9**  
+**Seção 4: Modificação do software de um Antminer S9**
 Aqui, você aprenderá a configurar seu Antminer S9 para uso doméstico. Vamos guiá-lo através da configuração de uma ponte Wi-Fi/Ethernet, redefinição do dispositivo, instalação do BraiinsOS+ e otimização para mineração.
 
-**Seção 5: Attakai - Modificação das ventoinhas**  
+**Seção 5: Modificação dos ventiladores**
 Para otimizar o uso do seu Antminer S9 como um aquecedor auxiliar, esta seção ensinará como substituir as ventoinhas da fonte de alimentação e as ventoinhas principais. Essas modificações são essenciais para reduzir o ruído e melhorar a eficiência térmica do dispositivo.
 
-**Seção 6: Attakai - Configuração**  
+**Seção 6: Configuração do aquecimento DIY**
 Finalmente, você aprenderá a se conectar a um pool de mineração e otimizar o desempenho do seu Antminer S9. Descubra como alcançar a eficiência energética ideal e minerar seus primeiros satoshis de maneira eficaz.
 
 Pronto para descobrir o mundo da mineração de Bitcoin e enfrentar o desafio prático do Attakai? Vamos começar!
 
 
-# Tudo o que você precisa saber sobre mineração
+# A mineração, seu funcionamento, sua indústria e seus desafios
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
@@ -445,7 +445,7 @@ Lista de materiais e links
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Tomada conectada opcional ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - modificação do software de um Antminer S9
+# Modificação do software de um Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -580,7 +580,7 @@ Nesta primeira página, você poderá observar o desempenho da sua máquina em t
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modificação dos ventiladores
+# Modificação dos ventiladores
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -706,7 +706,7 @@ E para o toque final, conecte a ponte Vonet à porta Ethernet com sua fonte de a
 
 E pronto, parabéns! Você acabou de substituir toda a parte mecânica do seu minerador. Agora você deve ouvir muito menos barulho.
 
-# Attakai - Configuração
+# Configuração do aquecimento DIY
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

@@ -1,10 +1,10 @@
 ---
 name: Lämmitä kotisi louhimalla bitcoineja
-goal: Muunna Antminer S9 Attakaiksi, tee-se-itse-lämmittimeksi kotilouhintaa varten, ohjatulla käyttöönotolla.
+goal: Muuta Antminer S9 DIY-lämmittimeksi kotitambointiin, ohjatussa asennuksessa.
 objectives:
   - Ymmärrä Bitcoin-louhinnan perusteet
   - Hanki käytetty Antminer S9 turvallisesti
-  - Rakenna Attakai DIY -lämmitin
+  - Rakenna DIY-lämmitin kotitambointiin
   - Määritä BraiinsOS+ ja liity louhintapooliin
 ---
 
@@ -29,29 +29,29 @@ Vaiheittaiset oppaat ohjaavat sinut läpi koko prosessin, jotta voit rakentaa At
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tervetuloa MIN 302 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
+Tervetuloa MIN 304 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
 
 Tämä koulutus vie sinut Bitcoin-louhinnan maailmaan tarjoten sekä teoreettista että käytännön tietoa. Olitpa sitten aloittelija tai jo asiasta tietoinen, tämä kurssi auttaa sinua ymmärtämään louhintaan liittyvät taloudelliset ja tekniset haasteet samalla, kun toteutat käytännön projektin ASIC-laitteen uudelleenkäytöstä kotilämmitykseen.
 
-**Osa 2: Kaikki louhinnasta**  
+**Osio 2: Louhinta, sen toiminta, teollisuus ja haasteet**
 Tässä osassa tarjoamme sinulle syvällisen ymmärryksen Bitcoin-louhinnasta. Käsittelemme louhinnan teknistä toimintaa, sen roolia Bitcoin-protokollassa sekä sen taloudellisia ja geopoliittisia vaikutuksia. Lisäksi tutustut monimutkaiseen suhteeseen bitcoinin hinnan ja hashraten välillä sekä suvereniteettiin ja sääntelyyn liittyviin kysymyksiin tässä alalla.
 
 **Osa 3: Kotilouhinta ja lämmön uudelleenkäyttö**  
 Seuraavaksi siirrymme käytännön sovellukseen Attakai-konseptin avulla, jonka tavoitteena on demokratisoida kotilouhinta muuttamalla käytetyt S9-louhijat kotilämmityslaitteiksi. Opit, kuinka ostaa ja muokata käytettyä ASIC-laitetta ja valmistella tarvittavat laitteet laitteistomuutoksia varten.
 
-**Osa 4: Attakai - Antminer S9:n ohjelmiston muokkaus**  
+**Osio 4: Antminer S9:n ohjelmiston muokkaus**
 Tässä osassa opit, kuinka konfiguroida Antminer S9 kotikäyttöön. Opastamme sinua Wi-Fi/Ethernet-sillan asettamisessa, laitteen nollaamisessa, BraiinsOS+:n asentamisessa ja sen optimaaliseen käyttöön asettamisessa.
 
-**Osa 5: Attakai - Tuulettimien muokkaus**  
+**Osio 5: Tuulettimien muokkaus**
 Optimoidaksesi Antminer S9:n käytön lisälämmityslaitteena, tämä osa opettaa sinulle, kuinka korvata virtalähteen tuulettimet ja päätuulettimet. Nämä muutokset ovat välttämättömiä melun vähentämiseksi ja laitteen lämmöntuottotehokkuuden parantamiseksi.
 
-**Osa 6: Attakai - Konfigurointi**  
+**Osio 6: DIY-lämmityksen parametrointi**
 Lopuksi opit liittymään louhintapooliin ja optimoimaan Antminer S9:n suorituskykyä. Opit, kuinka saavuttaa optimaalinen energiatehokkuus ja louhia tehokkaasti ensimmäiset satoshisi.
 
 Oletko valmis tutustumaan Bitcoin-louhinnan maailmaan ja ottamaan vastaan käytännön haasteen Attakai? Aloitetaan!
 
 
-# Kaikki mitä sinun tarvitsee tietää louhinnasta
+# Louhinta, sen toiminta, teollisuus ja haasteet
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
@@ -440,7 +440,7 @@ Laitteiden ja linkkien luettelo
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valinnainen ANTELA älypistoke](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Antminer S9 -ohjelmiston muokkaus
+# Antminer S9:n ohjelmiston muokkaaminen
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -568,7 +568,7 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 
 ![kuva](assets/en/045.webp)
 
-# Attakai - Tuulettimen muokkaus
+# Tuulettimien muokkaaminen
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -692,7 +692,7 @@ Ja viimeisenä silauksena, yhdistä Vonet-silta Ethernet-porttiin ja sen virtal�
 
 Ja siinä se, onneksi olkoon! Olet juuri vaihtanut louhijasi koko mekaanisen osan. Nyt sinun pitäisi kuulla huomattavasti vähemmän melua.
 
-# Attakai - Kokoonpano
+# DIY-lämmityksen asetukset
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

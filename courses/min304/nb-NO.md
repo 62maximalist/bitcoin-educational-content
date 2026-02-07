@@ -1,10 +1,10 @@
 ---
 name: Varm opp hjemmet ditt mens du utvinner bitcoin
-goal: Gjenbruk en Antminer S9 til Attakai, en DIY-varmer for hjemmemining, med veiledet oppsett.
+goal: Omgjør en Antminer S9 til en DIY-varmeovn for hjemme-mining, med veiledet oppsett.
 objectives:
   - Forstå grunnleggende prinsipper for Bitcoin-mining
   - Skaff en brukt Antminer S9 på en trygg måte
-  - Bygg Attakai DIY-varmeren
+  - Bygg DIY-varmeovnen for hjemme-mining
   - Konfigurer BraiinsOS+ og bli med i et gruvebasseng
 ---
 
@@ -29,29 +29,29 @@ Trinn-for-trinn-veiledninger leder deg gjennom hele prosessen slik at du kan byg
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Velkommen til MIN 302, kurset om Attakai-prosjektet. Ajelex, Jim og Rogzy vil guide deg gjennom de essensielle elementene i Bitcoin-mining, og deretter følge deg trinn for trinn i byggingen av din Attakai, et DIY hjemmeoppvarmingssystem laget fra en brukt S9. Vi håper du liker kurset og kaster deg ut i hjemme-mining-eventyret!
+Velkommen til MIN 304, kurset om Attakai-prosjektet. Ajelex, Jim og Rogzy vil guide deg gjennom de essensielle elementene i Bitcoin-mining, og deretter følge deg trinn for trinn i byggingen av din Attakai, et DIY hjemmeoppvarmingssystem laget fra en brukt S9. Vi håper du liker kurset og kaster deg ut i hjemme-mining-eventyret!
 
 Denne opplæringen tar deg med inn i kjernen av Bitcoin-miningindustrien ved å gi deg en forståelse av både teoretiske og praktiske aspekter. Enten du er nybegynner eller allerede kjent med emnet, vil dette kurset hjelpe deg med å forstå de økonomiske og tekniske utfordringene knyttet til mining, mens du fullfører et praktisk prosjekt med å gjenbruke en ASIC til hjemmeklimaoppvarming.
 
-**Del 2: Alt om mining**  
+**Seksjon 2: Mining, hvordan det fungerer, industrien og utfordringene**
 I denne delen vil vi gi deg en grundig forståelse av Bitcoin-mining. Vi vil dekke den tekniske funksjonen til mining, dens rolle i Bitcoin-protokollen, samt de økonomiske og geopolitiske implikasjonene. Du vil også lære om det komplekse forholdet mellom bitcoin-prisen og hashrate, samt spørsmål relatert til suverenitet og regulering i denne industrien.
 
 **Del 3: Hjemmemining og gjenbruk av varme**  
 Deretter vil vi dykke ned i praktisk anvendelse med konseptet Attakai, som har som mål å demokratisere hjemmemining ved å omdanne brukte S9-minere til husholdningsvarmeenheter. Du vil lære hvordan du kjøper og modifiserer en brukt ASIC, og hvordan du forbereder nødvendig utstyr for maskinvaremodifikasjoner.
 
-**Del 4: Attakai - Modifisering av programvaren til en Antminer S9**  
+**Seksjon 4: Modifisering av programvaren til en Antminer S9**
 Her vil du lære hvordan du konfigurerer din Antminer S9 til hjemmebruk. Vi vil lede deg gjennom oppsett av en Wi-Fi/Ethernet-bro, tilbakestilling av enheten, installasjon av BraiinsOS+ og optimalisering av den for mining.
 
-**Del 5: Attakai - Modifikasjon av vifter**  
+**Seksjon 5: Modifisering av viftene**
 For å optimalisere din Antminer S9 for bruk som en tilleggsvarmekilde, vil denne delen lære deg hvordan du bytter ut strømforsyningsvifter og hovedvifter. Disse modifikasjonene er essensielle for å redusere støy og forbedre den termiske effektiviteten til enheten.
 
-**Del 6: Attakai - Konfigurasjon**  
+**Seksjon 6: Innstilling av DIY-oppvarming**
 Til slutt vil du lære hvordan du kobler deg til en mining-pool og optimaliserer ytelsen til din Antminer S9. Du vil finne ut hvordan du oppnår optimal energieffektivitet og effektivt miner dine første satoshis.
 
 Klar til å utforske Bitcoin-miningverdenen og ta på deg den praktiske utfordringen med Attakai? La oss komme i gang!
 
 
-# Alt du trenger å vite om Mining
+# Mining, hvordan det fungerer, industrien og utfordringene
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
@@ -437,7 +437,7 @@ Liste over utstyr og lenker
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valgfri ANTELA smart plugg](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Modifisering av programvaren til en Antminer S9
+# Endring av programvaren til en Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -567,7 +567,7 @@ På denne første siden kan du observere maskinens sanntidsytelse.
 
 ![image](assets/en/045.webp)
 
-# Attakai - Modifikasjon av vifte
+# Endring av viftene
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -691,7 +691,7 @@ Og for den siste finishen, koble til Vonet-broen til Ethernet-porten og dens str
 
 Og der har du det, gratulerer! Du har nettopp erstattet hele den mekaniske delen av din miner. Du bør nå høre mye mindre støy.
 
-# Attakai - Konfigurasjon
+# Konfigurasjon av DIY-oppvarming
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

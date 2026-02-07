@@ -1,10 +1,10 @@
 ---
 name: Vytápějte svůj domov při těžbě bitcoinů
-goal: Přeměňte Antminer S9 na Attakai, DIY topení pro domácí těžbu, s řízeným nastavením.
+goal: Přeměňte Antminer S9 na DIY ohřívač pro domácí těžbu s průvodcem nastavením.
 objectives:
   - Pochopit základy těžby bitcoinu
   - Bezpečně pořiďte použitý Antminer S9
-  - Postavit DIY topení Attakai
+  - Postavte DIY ohřívač pro domácí těžbu
   - Nakonfigurovat BraiinsOS+ a připojit se k těžebnímu poolu
 ---
 
@@ -29,29 +29,29 @@ Podrobné návody vás provedou celým procesem, abyste mohli postavit Attakai d
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Vítejte v MIN 302, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
+Vítejte v MIN 304, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
 
 Tento kurz vás zavede do světa těžby Bitcoinu, kde se seznámíte s teoretickými i praktickými aspekty. Ať už jste nováček nebo máte s těžbou již nějaké zkušenosti, tento kurz vám pomůže pochopit ekonomické a technické výzvy spojené s těžbou, a zároveň se naučíte, jak přeměnit ASIC na zařízení pro domácí vytápění.
 
-**Sekce 2: Vše o těžbě**  
+**Sekce 2: Těžba, její fungování, průmysl a výzvy**
 V této části získáte hluboké porozumění těžbě Bitcoinu. Probereme technické fungování těžby, její roli v Bitcoinovém protokolu a ekonomické a geopolitické důsledky. Také se dozvíte o složitém vztahu mezi cenou bitcoinu a hashrate a o otázkách spojených se suverenitou a regulací tohoto odvětví.
 
 **Sekce 3: Home-mining a opětovné využití tepla**  
 Následně se zaměříme na praktickou aplikaci konceptu Attakai, který se snaží demokratizovat home-mining tím, že staré těžaře S9 přeměňuje na zařízení pro domácí vytápění. Naučíte se, jak koupit a upravit použitý ASIC a připravit potřebné vybavení pro hardwarové úpravy.
 
-**Sekce 4: Attakai - úprava softwaru Antmineru S9**  
+**Sekce 4: Úprava softwaru Antminer S9**
 Zde se naučíte, jak nakonfigurovat svůj Antminer S9 pro domácí použití. Provedeme vás kroky nastavení Wi-Fi/Ethernet bridge, resetováním zařízení, instalací BraiinsOS+ a optimální konfigurací pro těžbu.
 
-**Sekce 5: Attakai - úprava ventilátorů**  
+**Sekce 5: Úprava ventilátorů**
 Pro optimalizaci vašeho Antmineru S9 pro použití jako doplňkové topení vás tato část naučí, jak vyměnit napájecí ventilátory a hlavní ventilátory. Tyto úpravy jsou nezbytné pro snížení hluku a zlepšení tepelné účinnosti zařízení.
 
-**Sekce 6: Attakai - nastavení**  
+**Sekce 6: Nastavení DIY topení**
 Na závěr se naučíte, jak se připojit k těžebnímu poolu a optimalizovat výkon vašeho Antmineru S9. Objevíte, jak dosáhnout optimální energetické účinnosti a efektivně těžit své první satoshi.
 
 Tak co, jste připraveni objevit svět těžby Bitcoinu a zvládnout praktický úkol Attakai? Pojďme na to!
 
 
-# Vše, co potřebujete vědět o těžbě
+# Těžba, její fungování, průmysl a výzvy
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
@@ -439,7 +439,7 @@ Seznam vybavení a odkazů
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Volitelná chytrá zásuvka ANTELA](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Úprava softwaru Antmineru S9
+# Úprava softwaru Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -570,7 +570,7 @@ Na této první stránce můžete sledovat skutečný výkon vašeho stroje.
 
 ![obrázek](assets/en/045.webp)
 
-# Attakai - Úprava ventilátoru
+# Úprava ventilátorů
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -695,7 +695,7 @@ A jako poslední úprava připojte Vonet most k Ethernet portu a jeho napájení
 
 A máte to, gratulujeme! Právě jste vyměnili celou mechanickou část vašeho těžebního zařízení. Nyní byste měli slyšet mnohem méně hluku.
 
-# Attakai - Konfigurace
+# Nastavení DIY vytápění
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

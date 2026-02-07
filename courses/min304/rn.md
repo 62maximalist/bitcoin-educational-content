@@ -1,11 +1,11 @@
 ---
 name: Shyushya inzu yawe mu gihe uriko ucukura bitcoins
-goal: Gusubiza gukoresha Antminer S9 uyigira Attakai, igikoresho ca DIY co gushusha inzu mu bucukuzi bwo muhira, hamwe n’itunganirizwa riyobowe.
+goal: Guhindura Antminer S9 ibe heater ya DIY yo gucukura mu rugo, hamwe n'imikorere iyobowe.
 objectives: 
 
   - Gutahura ivy’ishimikiro vy’ubucukuzi bwa Bitcoin
   - Kuronka Antminer S9 yakoreshejwe mu buryo butekanye
-  - Kwubaka igikoresho ca DIY co gushusha ca Attakai
+  - Wubake heater ya DIY yo gucukura mu rugo
   - Gutunganya BraiinsOS+ no kwifatanya n’itsinda ryo gucukura
 
 ---
@@ -32,13 +32,13 @@ Inzira z'intambwe ku ntambwe zikuyobora mu nzira yose kugira ngo ushobore kubaka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Murakaza neza kuri MIN 302, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
+Murakaza neza kuri MIN 304, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
 
 
 Iri menyerezwa rigutwara mu mutima w’uruganda rwa Bitcoin mining, riguha ubumenyi bw’ivyiyumviro n’ubumenyi bw’ibikorwa. Waba uri uwutangura canke uri uwumaze kumenya neza ibi turiko turavuga, iki cigwa kizogufasha gutahura ibijanye n'ubutunzi be n’ubuhinga bwa mining, mu gihe uriko urakora umugambi ngirakamaro wo gusubira guha ubushobozi bundi ASIC wifashisha mu gutuma muhira hashuha.
 
 
-**Igisata ca 2: Buri kimwe cerekeye Mining**
+**Igice cya 2: Ubucukuzi, imikorere yabwo, inganda zabwo n'ibibazo byabwo**
 
 Muri iki gisata, tuzoguha ugutahura gutomoye kw’ivya Bitcoin mining. Tuzovuga ku mikorere y’ubuhinga ya mining, uruhara rwayo mu mategeko (protocol) ya Bitcoin, n’uruhara igira mu bukungu no muvya poritike y'ibihugu. Uzokwihweza kandi isano rikomeye riri hagati y’igiciro ca Bitcoin na Hashrate, hamwe n’ibibazo bijanye n’ubusegaba n’amategeko mu ruganda.
 
@@ -48,17 +48,17 @@ Muri iki gisata, tuzoguha ugutahura gutomoye kw’ivya Bitcoin mining. Tuzovuga 
 Inyuma y’aho, tuzokwihweza ukwo twokoresha mu buryo bubereye iciyumviro ca Attakai, kigamije gushiraho demokarasi kubakora mining muhira mu guhindura S9 miners igaheza ikaba igikoresho gituma muhira hashusha. Uzomenya ingene wogura n'uko wohindura ASIC yakoreshejwe, cokimwe no gutegura ibikenewe kugirango ugire ico uhindura kubikoresho.
 
 
-**Igisata ca 4: Attakai - Guhindura porogarame ya Antminer S9**
+**Igice cya 4: Guhindura software ya Antminer S9**
 
 Aha, uzomenya ingene wotunganya Antminer S9 yawe kugira ngo uyikoreshe muhira. Tuzokuyobora mu gushinga ikiraro ca Wi-Fi/Ethernet, gutanguza gushasha igikoresho cawe, gushiramwo BraiinsOS+, no kugitunganya kugira mining ikorwe neza.
 
 
-**Igisata ca 5: Attakai - Guhindura Fan(ventilateur)**
+**Igice cya 5: Guhindura abahumyi b'umuyaga**
 
 Kugira ngo ukoreshe neza Antminer S9 yawe kugira ngo ikoreshwe nk’igikoresho co gushusha, iki gice kizokwigisha ingene wosimbura fan z'isoko y'umucanwa na fan nyamukuru. Ivyo bihindugwa ni ngirakamaro kugira ngo urusaku rugabanuke kandi kugira ngo ubushuhe bwico gikoresho bu be bukwiye.
 
 
-**Igisata ca 6: Attakai - Gutunganya**
+**Igice cya 6: Gushiraho imiterere y'ubushyuhe DIY**
 
 Ubwa nyuma, uzomenya ingene wokwifatanya na mining pool hanyuma ugatuma Antminer S9 yawe ikora neza. Uzobona ingene woshika ku gukoresha neza inguvu no ku mine (gucukura) neza ama satoshis yawe ya mbere.
 
@@ -67,7 +67,7 @@ Witeguye kuvumbura isi ya Bitcoin mining no gufata igeregazwa ryo gukoresha Atta
 
 
 
-# Ivyo ukeneye kumenya vyose ku bijanye na Mining
+# Ubucukuzi, imikorere yabwo, inganda zabwo n'ibibazo byabwo
 
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
@@ -679,7 +679,7 @@ Urutonde rw'ibikoresho n'amahuza (link)
 - [Optional ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
-# Attakai - Guhindura porogarame y'ikinyabiziga S9.
+# Guhindura software ya Antminer S9
 
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
@@ -877,7 +877,7 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 ![image](assets/en/045.webp)
 
 
-# Attakai - Guhindura fana
+# Guhindura imiyoboro y'umwuka
 
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
@@ -1071,7 +1071,7 @@ Mukwongera ko utwanyuma, huza ikiraro ca Vonet ku cambu ca Ethernet na power sup
 Ubu rero urafise vyose, turagukeje! Ubu ushoboye gusubirize igice cose c'ubuhinga bwa Miner yawe. Ubu rero urashobora kumva urusaku ruke cane.
 
 
-# Attakai - Gutunganywa
+# Gutegura ubushyuhe bwa DIY
 
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>

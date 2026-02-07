@@ -1,10 +1,10 @@
 ---
 name: Heat your home while mining bitcoins
-goal: Repurpose an Antminer S9 into Attakai, a DIY heater for home mining, with guided setup.
+goal: Repurpose an Antminer S9 into a DIY heater for home mining, with guided setup.
 objectives:
   - Understand Bitcoin mining fundamentals
   - Source a used Antminer S9 safely
-  - Build the Attakai DIY heater
+  - Build the DIY heater for home mining
   - Configure BraiinsOS+ and join a mining pool
 ---
 
@@ -26,29 +26,29 @@ Step-by-step guides walk you through the entire process so you can build Attakai
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Welcome to MIN 302, the course on the Attakai project. Ajelex, Jim and Rogzy will guide you through the essential elements of Bitcoin mining, then accompany you step by step in building your Attakai, a DIY home heating system made from a used S9. We hope you enjoy the course and embark on the home mining adventure!
+Welcome to MIN 304, the course on the Attakai project. Ajelex, Jim and Rogzy will guide you through the essential elements of Bitcoin mining, then accompany you step by step in building your Attakai, a DIY home heating system made from a used S9. We hope you enjoy the course and embark on the home mining adventure!
 
 This training takes you to the heart of the Bitcoin mining industry, providing both theoretical and practical knowledge. Whether you are a beginner or already familiar with the topic, this course will help you understand the economic and technical aspects of mining while completing a practical project of repurposing an ASIC for home heating.
 
-**Section 2: Everything about Mining**  
+**Section 2: Mining, its operation, its industry and its challenges**
 In this section, we will provide a comprehensive understanding of Bitcoin mining. We will cover the technical functioning of mining, its role in the Bitcoin protocol, and its economic and geopolitical implications. You will also explore the complex relationship between bitcoin price and hashrate, as well as issues related to sovereignty and regulation in the industry.
 
 **Section 3: Home Mining and Heat Reuse**  
 Next, we will explore the practical application of the Attakai concept, which aims to democratize home mining by converting used S9 miners into home heating devices. You will learn how to purchase and modify a used ASIC, as well as prepare the necessary equipment for hardware modifications.
 
-**Section 4: Attakai - Modifying an Antminer S9's Software**  
+**Section 4: Modifying an Antminer S9 software**
 Here, you will learn how to configure your Antminer S9 for home use. We will guide you through setting up a Wi-Fi/Ethernet bridge, resetting your device, installing BraiinsOS+, and optimizing it for optimal mining performance.
 
-**Section 5: Attakai - Fan Modifications**  
+**Section 5: Modifying the fans**
 To optimize your Antminer S9 for use as an auxiliary heater, this section will guide you through replacing the power supply fans and the main fans. These modifications are essential for reducing noise and improving the thermal efficiency of the device.
 
-**Section 6: Attakai - Configuration**  
+**Section 6: DIY heating setup**
 Finally, you will learn how to join a mining pool and optimize the performance of your Antminer S9. You will discover how to achieve optimal energy efficiency and effectively mine your first satoshis.
 
 Ready to discover the world of Bitcoin mining and take on the practical challenge of Attakai? Let's get started!
 
 
-# Everything You Need to Know About Mining
+# Mining, its operation, its industry and its challenges
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
@@ -449,7 +449,7 @@ List of equipment and links
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
 - [Optional ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
-# Attakai - Modifying the Software of an Antminer S9
+# Modifying the Software of an Antminer S9
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -581,7 +581,7 @@ On this first page, you can observe the real-time performance of your machine.
 
 ![image](assets/en/045.webp)
 
-# Attakai - Fan Modification
+# Modification of the Fans
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -710,7 +710,7 @@ And for the finishing touch, connect the Vonet bridge to the Ethernet port and i
 
 And there you have it, congratulations! You have just replaced the entire mechanical part of your miner. You should now hear much less noise.
 
-# Attakai - Configuration
+# DIY Heating Configuration
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 

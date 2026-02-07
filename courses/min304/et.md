@@ -1,10 +1,10 @@
 ---
 name: Kütke oma kodu bitcoine kaevandades
-goal: Muutke Antminer S9 Attakai'ks, isetegemise küttekehaks koduseks kaevandamiseks, koos juhendatud seadistusega.
+goal: Muuda Antminer S9 DIY kütteseadmeks koduseks kaevandamiseks, juhendatud seadistusega.
 objectives:
   - Mõista Bitcoini kaevandamise aluseid
   - Hangige turvaliselt kasutatud Antminer S9
-  - Ehita Attakai DIY-küttekeha
+  - Ehitage DIY kütteseade koduseks kaevandamiseks
   - Seadista BraiinsOS+ ja liitu kaevandusbasseiniga
 ---
 
@@ -29,29 +29,29 @@ Samm-sammulised juhendid viivad teid läbi kogu protsessi, et saaksite ehitada A
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast MIN 302-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
+Tere tulemast MIN 304-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
 
 See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 
-**Osa 2: Kõik kaevandamisest**  
+**Jaotis 2: Kaevandamine, selle toimimine, tööstus ja väljakutsed**
 Selles osas pakume teile põhjalikku arusaamist Bitcoini kaevandamisest. Käsitleme kaevandamise tehnilist toimimist, selle rolli Bitcoini protokollis ja majanduslikke ja geopoliitilisi mõjusid. Samuti uurite keerulist suhet Bitcoini hinna ja hashrate vahel ning suveräänsuse ja regulatsiooniga seotud küsimusi selles valdkonnas.
 
 **Osa 3: Home-mining ja soojuse taaskasutamine**  
 Seejärel süveneme praktilisse rakendusse Attakai kontseptsiooni kaudu, mille eesmärk on demokratiseerida home-mining, muutes kasutatud S9 kaevandajad kodukütte seadmeteks. Õpid, kuidas osta ja muuta kasutatud ASIC-seadet, valmistades samal ajal ette vajaliku varustuse riistvara modifikatsioonide jaoks.
 
-**Osa 4: Attakai - Antminer S9 tarkvara muutmine**  
+**Jaotis 4: Antminer S9 tarkvara muutmine**
 Siin õpid, kuidas oma Antminer S9 koduseks kasutamiseks konfigureerida. Juhendame teid läbi Wi-Fi/Ethernet bridge'i seadistamise, seadme lähtestamise, BraiinsOS+ installimise ja selle optimaalseks kaevandamiseks seadistamise.
 
-**Osa 5: Attakai - Ventilaatorite muutmine**  
+**Jaotis 5: Ventilaatorite muutmine**
 Selleks, et optimeerida oma Antminer S9 kasutamist lisakütteseadmena, õpetab see osa teid, kuidas vahetada toiteventilaatorid ja peamised ventilaatorid. Need muudatused on hädavajalikud müra vähendamiseks ja seadme termilise tõhususe parandamiseks.
 
-**Osa 6: Attakai - Seadistamine**  
+**Jaotis 6: DIY kütte seadistamine**
 Lõpuks õpid, kuidas liituda kaevandamis-pooliga ja optimeerida oma Antminer S9 jõudlust. Avastad, kuidas saavutada optimaalne energiakasutuse tõhusus ja tõhusalt oma esimesi satoshisid kaevandada.
 
 Kas olete valmis avastama Bitcoini kaevandamise maailma ja läbima praktilise Attakai väljakutse? Alustame!
 
 
-# Kõik, mida pead teadma kaevandamisest
+# Kaevandamine, selle toimimine, tööstus ja väljakutsed
 
 <partId>aa99ef2c-da29-5317-a533-2ffa4f66f674</partId>
 
@@ -439,7 +439,7 @@ Seadmete ja linkide loetelu
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W/ref=sr_1_3_sspa?__mk_fr_FR=ÅMÅŽÕÑ&crid=13Q33UHRKCKG5&keywords=vonet&qid=1676819146&s=electronics&sprefix=vonet%2Celectronics%2C98&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Valikuline ANTELA nutikas pistik](https://www.amazon.fr/dp/B09YYMVXJZ/ref=twister_B0B5X46QLW?_encoding=UTF8&psc=1)
 
-# Attakai - Antminer S9 tarkvara muutmine
+# Antminer S9 tarkvara muutmine
 
 <partId>afc9c29a-84aa-5f1d-82e2-5fd9ff2e1805</partId>
 
@@ -570,7 +570,7 @@ Sellel esimesel lehel saate jälgida oma masina reaalajas toimivust.
 
 ![image](assets/en/045.webp)
 
-# Attakai - Ventilaatori Modifikatsioon
+# Ventilaatorite muutmine
 
 <partId>98266a8f-3745-58a0-9f6b-26a9734e1427</partId>
 
@@ -695,7 +695,7 @@ Ja viimaseks lihviks ühendage Vonet sild Etherneti pordiga ja selle toiteallika
 
 Ja ongi valmis, palju õnne! Olete just asendanud oma kaevuri kogu mehaanilise osa. Nüüd peaks müra oluliselt vähem olema.
 
-# Attakai - Konfiguratsioon
+# DIY kütte seadistamine
 
 <partId>9c3918a8-d9a3-5a1f-bb9a-70314f7ac175</partId>
 
