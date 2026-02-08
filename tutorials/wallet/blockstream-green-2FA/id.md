@@ -1,6 +1,6 @@
 ---
 name: Blockstream Green - 2FA
-description: Menyiapkan multisig 2/2 di Dompet Hijau
+description: Menyiapkan multisig 2/2 di Dompet Green
 ---
 ![cover](assets/cover.webp)
 
