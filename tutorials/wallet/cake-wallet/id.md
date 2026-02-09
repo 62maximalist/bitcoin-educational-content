@@ -1,6 +1,6 @@
 ---
 name: Cake Wallet
-description: Tutorial tentang Cake Wallet dan Pembayaran Diam
+description: Tutorial tentang Cake Wallet dan Silent Payment
 ---
 
 ![cover](assets/cover.webp)
