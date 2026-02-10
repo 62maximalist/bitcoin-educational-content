@@ -1,6 +1,6 @@
 ---
 name: Coin Wallet
-description: Tutorial tentang Coin Wallet dan cara-cara untuk meningkatkan privasi dan keamanan
+description: Tutorial tentang Coin Wallet dan berbagai cara untuk meningkatkan privasi dan keamanan
 ---
 
 ![cover](assets/cover.webp)
