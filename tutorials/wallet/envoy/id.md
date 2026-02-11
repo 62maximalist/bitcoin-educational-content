@@ -4,29 +4,30 @@ description: Menyiapkan dan menggunakan Paspor dengan aplikasi Envoy
 ---
 ![cover](assets/cover.webp)
 
-Envoy adalah sebuah aplikasi manajemen dompet Bitcoin yang dikembangkan oleh Foundation. Aplikasi ini dirancang khusus untuk digunakan dengan dompet perangkat keras Passport.
+Envoy adalah aplikasi manajemen dompet Bitcoin yang dikembangkan oleh Foundation. Aplikasi ini dirancang khusus untuk digunakan dengan dompet perangkat keras Passport.
 
-Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini dengan aplikasi Envoy adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
+Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini dengan aplikasi Envoy adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode *Air-Gap*, memastikan kunci pribadi dompet kamu tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
 
-Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
+Untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 
 Dalam hal keamanan, Passport menggabungkan elemen yang aman, dan kode sumber perangkat ini sepenuhnya bersifat open source. Ia menawarkan semua fitur yang diharapkan dari dompet perangkat keras Bitcoin yang baik. Perlu dicatat bahwa Passport belum mendukung miniscript, tetapi fitur ini direncanakan untuk kuartal kedua tahun 2025.
 
 Dengan harga $199, Passport diposisikan sebagai dompet perangkat keras kelas atas, bersaing dengan Coldcard Q, Jade Plus, Tezor Safe 5, dan model-model terbaik dari Ledger.
 
+
 ![Image](assets/fr/01.webp)
 
-Untuk mengelola dompet aman Anda pada Passport, Anda memiliki beberapa opsi. Dompet perangkat keras ini kompatibel dengan sebagian besar perangkat lunak manajemen dompet yang ada di pasaran, termasuk Sparrow Wallet, Specter Desktop, Nunchuk, Keeper, dan lain-lain.
+Untuk mengelola dompet aman kamu pada Passport, kamu memiliki beberapa opsi. Dompet perangkat keras ini kompatibel dengan sebagian besar perangkat lunak manajemen dompet yang ada di pasaran, termasuk Sparrow Wallet, Specter Desktop, Nunchuk, Keeper, dan lain-lain.
 
-Dalam tutorial ini, yang ditujukan untuk pengguna pemula dan menengah, kita akan menemukan cara menggunakan aplikasi Envoy dengan Passport Anda. Ini adalah cara termudah untuk memaksimalkan dompet perangkat keras Anda.
+Dalam tutorial ini, yang ditujukan untuk pengguna pemula dan menengah, kita akan melihat cara menggunakan aplikasi Envoy dengan Passport kamu. Ini adalah cara termudah untuk memaksimalkan dompet perangkat keras kamu.
 
-Jika Anda pengguna tingkat lanjut dan ingin menjelajahi fitur-fitur yang lebih kompleks, saya sarankan Anda melihat tutorial lain di mana kita mengonfigurasi Passport dengan Sparrow Wallet :
+Jika kamu pengguna tingkat lanjut dan ingin menjelajahi fitur-fitur yang lebih kompleks, aku sarankan melihat tutorial lain di mana kita mengonfigurasi Passport dengan Sparrow Wallet :
 
 https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Membuka Kotak Paspor
 
-Ketika Anda menerima Paspor, pastikan kotak dan segel pada karton masih utuh untuk mengonfirmasi bahwa paket tersebut belum dibuka. Verifikasi perangkat lunak terhadap keaslian dan integritas perangkat juga akan dilakukan saat perangkat diatur.
+Ketika kamu menerima Paspor, pastikan kotak dan segel pada karton masih utuh untuk mengonfirmasi bahwa paket tersebut belum dibuka. Verifikasi perangkat lunak terhadap keaslian dan integritas perangkat juga akan dilakukan saat perangkat diatur.
 
 ![Image](assets/fr/02.webp)
 
@@ -34,13 +35,13 @@ Isi kotak termasuk:
 
 
 - Paspor;
-- Selembar karton untuk menuliskan frasa mnemonik Anda;
+- Selembar karton untuk menuliskan frasa mnemonik kamu;
 - Kabel USB-C untuk pengisian daya ;
 - Kartu microSD ;
 - Dua adapter MicroSD ke Lightning atau USB-C ;
 - Stiker.
 
-Pada perangkat, Anda akan menemukan :
+Pada perangkat, kamu akan menemukan :
 
 
 - Keyboard (1) ;
