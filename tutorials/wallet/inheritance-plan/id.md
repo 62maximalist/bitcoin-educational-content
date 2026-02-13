@@ -1,6 +1,6 @@
 ---
 name: Rencana warisan Bitcoin
-description: Cara mentransfer bitcoin ke orang yang Anda cintai
+description: Cara mentransfer bitcoin ke orang yang kamu cintai
 ---
 
 ![cover](assets/cover.webp)
