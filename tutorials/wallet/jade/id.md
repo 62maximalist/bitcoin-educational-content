@@ -1,7 +1,7 @@
 ---
 name: Jade
 
-description: Cara menyiapkan perangkat JADE Anda
+description: Cara menyiapkan perangkat JADE milikmu
 ---
 
 ![image](assets/cover.webp)
