@@ -1,7 +1,7 @@
 ---
 name: Muun
 
-description: Menyiapkan dompet Muun Anda
+description: Menyiapkan dompet Muun milikmu
 ---
 
 ![cover](assets/cover.webp)
