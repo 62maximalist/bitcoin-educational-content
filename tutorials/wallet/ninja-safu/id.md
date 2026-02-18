@@ -1,6 +1,6 @@
 ---
 name: SAFU Ninja
-description: Simpan seed Anda dengan metode SAFU Ninja
+description: Simpan seed dengan metode SAFU Ninja
 ---
 
 ![cover](assets/cover.webp)
